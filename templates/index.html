@@ -1,0 +1,1127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>WiFiPredict | Bandwidth Prediction</title>
+
+    <link
+        rel="stylesheet"
+        href="{{ url_for('static', filename='style.css') }}"
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+
+</head>
+
+
+<body>
+
+    <!-- ==========================================
+         NAVBAR
+    =========================================== -->
+
+    <header class="navbar">
+
+        <div class="nav-container">
+
+            <a href="#home" class="logo">
+
+                <span class="logo-icon">◉</span>
+
+                <span>
+                    WiFi<span class="logo-highlight">Predict</span>
+                </span>
+
+            </a>
+
+
+            <nav class="nav-links">
+
+                <a href="#home">Home</a>
+
+                <a href="#predict">Predict</a>
+
+                <a href="#features">Features</a>
+
+                <a href="#about">About</a>
+
+            </nav>
+
+
+            <a
+                href="#predict"
+                class="nav-button"
+            >
+                Predict Now
+            </a>
+
+        </div>
+
+    </header>
+
+
+
+    <!-- ==========================================
+         HERO SECTION
+    =========================================== -->
+
+    <section id="home" class="hero">
+
+        <div class="hero-background">
+
+            <div class="wifi-circle circle-one"></div>
+
+            <div class="wifi-circle circle-two"></div>
+
+            <div class="wifi-circle circle-three"></div>
+
+        </div>
+
+
+        <div class="hero-content">
+
+            <div class="hero-badge">
+
+                <span class="status-dot"></span>
+
+                AI-Powered Network Intelligence
+
+            </div>
+
+
+            <h1>
+
+                Predict Your
+
+                <span>Wi-Fi Bandwidth</span>
+
+                Before It Runs Out
+
+            </h1>
+
+
+            <p>
+
+                Intelligent bandwidth usage prediction using
+                Machine Learning. Analyze network conditions,
+                connected devices, academic schedules and
+                events to estimate future bandwidth demand.
+
+            </p>
+
+
+            <div class="hero-buttons">
+
+                <a
+                    href="#predict"
+                    class="primary-button"
+                >
+                    Start Prediction
+                    <span>→</span>
+                </a>
+
+
+                <a
+                    href="#about"
+                    class="secondary-button"
+                >
+                    Learn More
+                </a>
+
+            </div>
+
+
+            <div class="hero-stats">
+
+                <div class="stat">
+
+                    <strong>96.8%</strong>
+
+                    <span>R² Score</span>
+
+                </div>
+
+
+                <div class="stat-divider"></div>
+
+
+                <div class="stat">
+
+                    <strong>300</strong>
+
+                    <span>Decision Trees</span>
+
+                </div>
+
+
+                <div class="stat-divider"></div>
+
+
+                <div class="stat">
+
+                    <strong>5</strong>
+
+                    <span>Campus Zones</span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Floating network visualization -->
+
+        <div class="network-visual">
+
+            <div class="network-card">
+
+                <div class="network-header">
+
+                    <span>NETWORK STATUS</span>
+
+                    <span class="online">
+                        ● LIVE
+                    </span>
+
+                </div>
+
+
+                <div class="network-main">
+
+                    <div class="wifi-symbol">
+
+                        <span class="wifi-arc arc-1"></span>
+
+                        <span class="wifi-arc arc-2"></span>
+
+                        <span class="wifi-arc arc-3"></span>
+
+                        <span class="wifi-dot"></span>
+
+                    </div>
+
+
+                    <div>
+
+                        <small>
+                            Predicted Usage
+                        </small>
+
+                        <strong>
+                            247.8 GB
+                        </strong>
+
+                    </div>
+
+                </div>
+
+
+                <div class="network-bars">
+
+                    <span style="height: 35%;"></span>
+
+                    <span style="height: 55%;"></span>
+
+                    <span style="height: 45%;"></span>
+
+                    <span style="height: 70%;"></span>
+
+                    <span style="height: 85%;"></span>
+
+                    <span style="height: 65%;"></span>
+
+                    <span style="height: 92%;"></span>
+
+                    <span style="height: 76%;"></span>
+
+                </div>
+
+
+                <div class="network-footer">
+
+                    <span>Network Demand</span>
+
+                    <span>Increasing</span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ==========================================
+         PREDICTION SECTION
+    =========================================== -->
+
+    <section id="predict" class="prediction-section">
+
+        <div class="section-heading">
+
+            <span class="section-label">
+                MACHINE LEARNING
+            </span>
+
+            <h2>
+                Predict Network Bandwidth
+            </h2>
+
+            <p>
+                Enter the current network conditions and
+                let our Random Forest model estimate the
+                bandwidth usage.
+            </p>
+
+        </div>
+
+
+        <div class="prediction-layout">
+
+
+            <!-- FORM CARD -->
+
+            <div class="prediction-card">
+
+                <div class="card-heading">
+
+                    <div class="heading-icon">
+                        ⚡
+                    </div>
+
+                    <div>
+
+                        <h3>
+                            Network Parameters
+                        </h3>
+
+                        <p>
+                            Provide the network information
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <form
+                    method="POST"
+                    action="/"
+                    id="predictionForm"
+                >
+
+
+                    <!-- Zone -->
+
+                    <div class="form-group">
+
+                        <label for="zone">
+                            Campus Zone
+                        </label>
+
+                        <select
+                            name="zone"
+                            id="zone"
+                            required
+                        >
+
+                            <option value="">
+                                Select campus zone
+                            </option>
+
+                            <option value="Hostel">
+                                Hostel
+                            </option>
+
+                            <option value="Library">
+                                Library
+                            </option>
+
+                            <option value="Academic Block">
+                                Academic Block
+                            </option>
+
+                            <option value="Cafeteria">
+                                Cafeteria
+                            </option>
+
+                            <option value="Sports Complex">
+                                Sports Complex
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+                    <!-- Device + Packet Loss -->
+
+                    <div class="form-row">
+
+                        <div class="form-group">
+
+                            <label for="avg_devices_connected">
+                                Connected Devices
+                            </label>
+
+                            <input
+                                type="number"
+                                name="avg_devices_connected"
+                                id="avg_devices_connected"
+                                min="0"
+                                step="1"
+                                placeholder="e.g. 450"
+                                required
+                            >
+
+                            <small>
+                                Average connected devices
+                            </small>
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="packet_loss_rate">
+                                Packet Loss Rate
+                            </label>
+
+                            <input
+                                type="number"
+                                name="packet_loss_rate"
+                                id="packet_loss_rate"
+                                min="0"
+                                step="0.01"
+                                placeholder="e.g. 1.5"
+                                required
+                            >
+
+                            <small>
+                                Packet loss percentage/rate
+                            </small>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- Weekend / Exam / Event -->
+
+                    <div class="form-section-title">
+
+                        Network Context
+
+                    </div>
+
+
+                    <div class="toggle-grid">
+
+
+                        <div class="toggle-card">
+
+                            <input
+                                type="checkbox"
+                                id="weekendCheck"
+                            >
+
+                            <label for="weekendCheck">
+
+                                <span class="toggle-icon">
+                                    📅
+                                </span>
+
+                                <span>
+
+                                    <strong>
+                                        Weekend
+                                    </strong>
+
+                                    <small>
+                                        Is it weekend?
+                                    </small>
+
+                                </span>
+
+                            </label>
+
+                            <input
+                                type="hidden"
+                                name="is_weekend"
+                                id="weekendValue"
+                                value="0"
+                            >
+
+                        </div>
+
+
+                        <div class="toggle-card">
+
+                            <input
+                                type="checkbox"
+                                id="examCheck"
+                            >
+
+                            <label for="examCheck">
+
+                                <span class="toggle-icon">
+                                    📚
+                                </span>
+
+                                <span>
+
+                                    <strong>
+                                        Exam Period
+                                    </strong>
+
+                                    <small>
+                                        Is there an exam?
+                                    </small>
+
+                                </span>
+
+                            </label>
+
+                            <input
+                                type="hidden"
+                                name="is_exam"
+                                id="examValue"
+                                value="0"
+                            >
+
+                        </div>
+
+
+                        <div class="toggle-card">
+
+                            <input
+                                type="checkbox"
+                                id="eventCheck"
+                            >
+
+                            <label for="eventCheck">
+
+                                <span class="toggle-icon">
+                                    🎯
+                                </span>
+
+                                <span>
+
+                                    <strong>
+                                        Campus Event
+                                    </strong>
+
+                                    <small>
+                                        Is there an event?
+                                    </small>
+
+                                </span>
+
+                            </label>
+
+                            <input
+                                type="hidden"
+                                name="is_event"
+                                id="eventValue"
+                                value="0"
+                            >
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- Day / Month -->
+
+                    <div class="form-row">
+
+                        <div class="form-group">
+
+                            <label for="day_of_week">
+                                Day of Week
+                            </label>
+
+                            <select
+                                name="day_of_week"
+                                id="day_of_week"
+                                required
+                            >
+
+                                <option value="">
+                                    Select day
+                                </option>
+
+                                <option value="0">
+                                    Monday
+                                </option>
+
+                                <option value="1">
+                                    Tuesday
+                                </option>
+
+                                <option value="2">
+                                    Wednesday
+                                </option>
+
+                                <option value="3">
+                                    Thursday
+                                </option>
+
+                                <option value="4">
+                                    Friday
+                                </option>
+
+                                <option value="5">
+                                    Saturday
+                                </option>
+
+                                <option value="6">
+                                    Sunday
+                                </option>
+
+                            </select>
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="month">
+                                Month
+                            </label>
+
+                            <select
+                                name="month"
+                                id="month"
+                                required
+                            >
+
+                                <option value="">
+                                    Select month
+                                </option>
+
+                                <option value="1">January</option>
+                                <option value="2">February</option>
+                                <option value="3">March</option>
+                                <option value="4">April</option>
+                                <option value="5">May</option>
+                                <option value="6">June</option>
+                                <option value="7">July</option>
+                                <option value="8">August</option>
+                                <option value="9">September</option>
+                                <option value="10">October</option>
+                                <option value="11">November</option>
+                                <option value="12">December</option>
+
+                            </select>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- Rolling Average -->
+
+                    <div class="form-group">
+
+                        <label for="rolling_avg_7">
+
+                            7-Day Rolling Average
+
+                        </label>
+
+                        <input
+                            type="number"
+                            name="rolling_avg_7"
+                            id="rolling_avg_7"
+                            min="0"
+                            step="0.01"
+                            placeholder="e.g. 180.5"
+                            required
+                        >
+
+                        <small>
+                            Average bandwidth usage during
+                            the last 7 days (GB)
+                        </small>
+
+                    </div>
+
+
+                    <button
+                        type="submit"
+                        class="predict-button"
+                    >
+
+                        <span>
+                            Predict Bandwidth
+                        </span>
+
+                        <span class="button-arrow">
+                            →
+                        </span>
+
+                    </button>
+
+
+                </form>
+
+            </div>
+
+
+
+            <!-- RESULT CARD -->
+
+            <div class="result-area">
+
+                {% if prediction is not none %}
+
+                <div class="result-card success">
+
+                    <div class="result-glow"></div>
+
+                    <div class="result-icon">
+                        ✓
+                    </div>
+
+                    <span class="result-label">
+                        PREDICTED BANDWIDTH
+                    </span>
+
+                    <div class="prediction-number">
+
+                        {{ prediction }}
+
+                        <span>GB</span>
+
+                    </div>
+
+                    <p>
+                        Estimated daily bandwidth usage
+                    </p>
+
+
+                    <div class="result-info">
+
+                        <div>
+
+                            <span>Model</span>
+
+                            <strong>
+                                Random Forest
+                            </strong>
+
+                        </div>
+
+                        <div>
+
+                            <span>R² Score</span>
+
+                            <strong>
+                                96.80%
+                            </strong>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                {% elif error %}
+
+                <div class="result-card error">
+
+                    <div class="result-icon">
+                        !
+                    </div>
+
+                    <h3>
+                        Prediction Error
+                    </h3>
+
+                    <p>
+                        {{ error }}
+                    </p>
+
+                </div>
+
+                {% else %}
+
+                <div class="empty-result">
+
+                    <div class="empty-icon">
+
+                        <span class="wifi-small">
+                            ◉
+                        </span>
+
+                    </div>
+
+                    <h3>
+                        Your prediction will appear here
+                    </h3>
+
+                    <p>
+                        Fill in the network parameters
+                        and click <strong>Predict Bandwidth</strong>
+                        to generate your estimate.
+                    </p>
+
+                    <div class="prediction-flow">
+
+                        <div>
+                            <span>01</span>
+                            Input
+                        </div>
+
+                        <div class="flow-line"></div>
+
+                        <div>
+                            <span>02</span>
+                            ML Model
+                        </div>
+
+                        <div class="flow-line"></div>
+
+                        <div>
+                            <span>03</span>
+                            Prediction
+                        </div>
+
+                    </div>
+
+                </div>
+
+                {% endif %}
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ==========================================
+         FEATURES
+    =========================================== -->
+
+    <section
+        id="features"
+        class="features-section"
+    >
+
+        <div class="section-heading">
+
+            <span class="section-label">
+                WHY WIFIPREDICT?
+            </span>
+
+            <h2>
+                Smarter Network Planning
+            </h2>
+
+            <p>
+                The system combines network and contextual
+                information to estimate bandwidth demand.
+            </p>
+
+        </div>
+
+
+        <div class="feature-grid">
+
+
+            <div class="feature-card">
+
+                <div class="feature-icon">
+                    📡
+                </div>
+
+                <h3>
+                    Network Intelligence
+                </h3>
+
+                <p>
+                    Uses connected device count and packet
+                    loss information to understand network
+                    demand.
+                </p>
+
+            </div>
+
+
+            <div class="feature-card">
+
+                <div class="feature-icon">
+                    🤖
+                </div>
+
+                <h3>
+                    Random Forest AI
+                </h3>
+
+                <p>
+                    Uses a Random Forest regression model
+                    with 300 decision trees to predict
+                    bandwidth usage.
+                </p>
+
+            </div>
+
+
+            <div class="feature-card">
+
+                <div class="feature-icon">
+                    📊
+                </div>
+
+                <h3>
+                    Historical Trends
+                </h3>
+
+                <p>
+                    The 7-day rolling bandwidth average
+                    provides historical context for
+                    prediction.
+                </p>
+
+            </div>
+
+
+            <div class="feature-card">
+
+                <div class="feature-icon">
+                    🏫
+                </div>
+
+                <h3>
+                    Campus Aware
+                </h3>
+
+                <p>
+                    Supports Hostel, Library, Academic Block,
+                    Cafeteria and Sports Complex zones.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ==========================================
+         ABOUT
+    =========================================== -->
+
+    <section
+        id="about"
+        class="about-section"
+    >
+
+        <div class="about-content">
+
+            <div class="about-text">
+
+                <span class="section-label">
+                    ABOUT THE PROJECT
+                </span>
+
+                <h2>
+                    AI for Better Wi-Fi Resource Planning
+                </h2>
+
+                <p>
+
+                    WiFiPredict is a Machine Learning solution
+                    designed to predict daily network bandwidth
+                    usage across different campus zones.
+
+                </p>
+
+                <p>
+
+                    The model considers contextual factors such
+                    as academic schedules, events, connected
+                    device patterns, packet loss and historical
+                    bandwidth usage.
+
+                </p>
+
+                <div class="tech-stack">
+
+                    <span>Python</span>
+
+                    <span>Scikit-learn</span>
+
+                    <span>Random Forest</span>
+
+                    <span>Flask</span>
+
+                    <span>Pandas</span>
+
+                </div>
+
+            </div>
+
+
+            <div class="model-card">
+
+                <div class="model-card-header">
+
+                    <span>
+                        MODEL PERFORMANCE
+                    </span>
+
+                    <span class="model-status">
+                        BEST MODEL
+                    </span>
+
+                </div>
+
+
+                <div class="metric">
+
+                    <div class="metric-info">
+
+                        <span>R² Score</span>
+
+                        <strong>96.80%</strong>
+
+                    </div>
+
+                    <div class="progress">
+
+                        <div
+                            class="progress-fill"
+                            style="width: 96.8%;"
+                        ></div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="metric">
+
+                    <div class="metric-info">
+
+                        <span>RMSE</span>
+
+                        <strong>25.93</strong>
+
+                    </div>
+
+                    <div class="metric-description">
+                        Lower is better
+                    </div>
+
+                </div>
+
+
+                <div class="metric">
+
+                    <div class="metric-info">
+
+                        <span>MAE</span>
+
+                        <strong>19.24</strong>
+
+                    </div>
+
+                    <div class="metric-description">
+                        Lower is better
+                    </div>
+
+                </div>
+
+
+                <div class="model-note">
+
+                    Random Forest outperformed Linear
+                    Regression in the notebook evaluation.
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ==========================================
+         FOOTER
+    =========================================== -->
+
+    <footer>
+
+        <div class="footer-content">
+
+            <div class="footer-brand">
+
+                <strong>
+                    WiFi<span>Predict</span>
+                </strong>
+
+                <p>
+                    Intelligent campus network forecasting.
+                </p>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <a href="#home">Home</a>
+
+                <a href="#predict">Predict</a>
+
+                <a href="#features">Features</a>
+
+                <a href="#about">About</a>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <span>
+                © 2026 WiFiPredict
+            </span>
+
+            <span>
+                Machine Learning • Network Analytics
+            </span>
+
+        </div>
+
+    </footer>
+
+
+    <script
+        src="{{ url_for('static', filename='script.js') }}"
+    ></script>
+
+</body>
+
+</html>
