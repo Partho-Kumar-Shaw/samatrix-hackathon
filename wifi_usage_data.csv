@@ -1,0 +1,1001 @@
+date,zone,is_weekend,is_exam,is_event,avg_devices_connected,packet_loss_rate,bandwidth_used_gb
+2024-01-01,Hostel,False,False,False,565.0,1.12,403.1
+2024-01-01,Library,False,False,False,565.0,1.12,185.3
+2024-01-01,Academic Block,False,False,False,565.0,1.12,284.7
+2024-01-01,Cafeteria,False,False,False,565.0,1.12,54.8
+2024-01-01,Sports Complex,False,False,False,565.0,1.12,47.8
+2024-01-02,Hostel,False,False,False,,2.64,266.1
+2024-01-02,Library,False,False,False,271.0,2.64,49.8
+2024-01-02,Academic Block,False,False,False,271.0,2.64,156.6
+2024-01-02,Cafeteria,False,False,False,271.0,2.64,0.0
+2024-01-02,Sports Complex,False,False,False,271.0,2.64,0.0
+2024-01-03,Hostel,False,False,False,434.0,0.71,388.3
+2024-01-03,Library,False,False,False,434.0,0.71,145.5
+2024-01-03,Academic Block,False,False,False,434.0,0.71,260.8
+2024-01-03,Cafeteria,False,False,False,434.0,0.71,25.1
+2024-01-03,Sports Complex,False,False,False,434.0,0.71,28.0
+2024-01-04,Hostel,False,False,False,305.0,1.02,347.8
+2024-01-04,Library,False,False,False,305.0,1.02,112.0
+2024-01-04,Academic Block,False,False,False,305.0,1.02,212.0
+2024-01-04,Cafeteria,False,False,False,305.0,1.02,8.3
+2024-01-04,Sports Complex,False,False,False,305.0,1.02,0.0
+2024-01-05,Hostel,False,True,False,460.0,1.11,493.1
+2024-01-05,Library,False,True,False,460.0,1.11,274.1
+2024-01-05,Academic Block,False,True,False,,1.11,237.8
+2024-01-05,Cafeteria,False,True,False,460.0,1.11,25.0
+2024-01-05,Sports Complex,False,True,False,460.0,1.11,17.0
+2024-01-06,Hostel,True,True,False,284.0,1.34,480.5
+2024-01-06,Library,True,True,False,284.0,1.34,145.3
+2024-01-06,Academic Block,True,True,False,284.0,1.34,144.5
+2024-01-06,Cafeteria,True,True,False,284.0,1.34,0.0
+2024-01-06,Sports Complex,True,True,False,284.0,1.34,0.0
+2024-01-07,Hostel,True,False,False,406.0,1.33,434.0
+2024-01-07,Library,True,False,False,406.0,1.33,76.2
+2024-01-07,Academic Block,True,False,False,406.0,1.33,188.3
+2024-01-07,Cafeteria,True,False,False,406.0,1.33,47.9
+2024-01-07,Sports Complex,True,False,False,406.0,1.33,37.5
+2024-01-08,Hostel,False,False,False,444.0,2.74,309.2
+2024-01-08,Library,False,False,False,444.0,2.74,147.8
+2024-01-08,Academic Block,False,False,False,444.0,2.74,184.4
+2024-01-08,Cafeteria,False,False,False,444.0,2.74,11.4
+2024-01-08,Sports Complex,False,False,False,444.0,2.74,1.3
+2024-01-09,Hostel,False,False,False,506.0,2.13,366.5
+2024-01-09,Library,False,False,False,506.0,2.13,175.1
+2024-01-09,Academic Block,False,False,False,506.0,2.13,239.5
+2024-01-09,Cafeteria,False,False,False,506.0,2.13,11.9
+2024-01-09,Sports Complex,False,False,False,506.0,2.13,27.6
+2024-01-10,Hostel,False,False,False,453.0,3.09,357.7
+2024-01-10,Library,False,False,False,453.0,3.09,108.0
+2024-01-10,Academic Block,False,False,False,453.0,3.09,196.1
+2024-01-10,Cafeteria,False,False,False,453.0,3.09,20.0
+2024-01-10,Sports Complex,False,False,False,453.0,3.09,-4.4
+2024-01-11,Hostel,False,False,False,456.0,1.02,366.1
+2024-01-11,Library,False,False,False,456.0,1.02,124.9
+2024-01-11,Academic Block,False,False,False,456.0,1.02,252.9
+2024-01-11,Cafeteria,False,False,False,456.0,1.02,35.0
+2024-01-11,Sports Complex,False,False,False,456.0,1.02,9.7
+2024-01-12,Hostel,False,False,False,492.0,1.85,396.3
+2024-01-12,Library,False,False,False,492.0,1.85,145.0
+2024-01-12,Academic Block,False,False,False,492.0,1.85,240.6
+2024-01-12,Cafeteria,False,False,False,492.0,1.85,44.6
+2024-01-12,Sports Complex,False,False,False,492.0,1.85,42.2
+2024-01-13,Hostel,True,False,False,548.0,0.0,506.9
+2024-01-13,Library,True,False,False,548.0,0.0,105.2
+2024-01-13,Academic Block,True,False,False,548.0,0.0,230.4
+2024-01-13,Cafeteria,True,False,False,548.0,0.0,94.4
+2024-01-13,Sports Complex,True,False,False,548.0,0.0,115.3
+2024-01-14,Hostel,True,False,False,435.0,2.32,384.5
+2024-01-14,Library,True,False,False,435.0,2.32,71.8
+2024-01-14,Academic Block,True,False,False,435.0,2.32,178.8
+2024-01-14,Cafeteria,True,False,False,435.0,2.32,5.9
+2024-01-14,Sports Complex,True,False,False,435.0,2.32,38.5
+2024-01-15,Hostel,False,False,False,314.0,1.97,320.0
+2024-01-15,Library,False,False,False,314.0,1.97,73.6
+2024-01-15,Academic Block,False,False,False,314.0,1.97,193.4
+2024-01-15,Cafeteria,False,False,False,314.0,1.97,0.0
+2024-01-15,Sports Complex,False,False,False,314.0,1.97,0.0
+2024-01-16,Hostel,False,False,False,462.0,2.27,350.4
+2024-01-16,Library,False,False,False,462.0,2.27,77.9
+2024-01-16,Academic Block,False,False,False,462.0,2.27,258.2
+2024-01-16,Cafeteria,False,False,False,462.0,2.27,0.0
+2024-01-16,Sports Complex,False,False,False,462.0,2.27,23.8
+2024-01-17,Hostel,False,False,False,506.0,0.48,433.2
+2024-01-17,Library,False,False,False,506.0,0.48,149.2
+2024-01-17,Academic Block,False,False,False,506.0,0.48,273.7
+2024-01-17,Cafeteria,False,False,False,506.0,0.48,79.4
+2024-01-17,Sports Complex,False,False,False,506.0,0.48,37.2
+2024-01-18,Hostel,False,False,False,,0.93,441.7
+2024-01-18,Library,False,False,False,639.0,0.93,220.0
+2024-01-18,Academic Block,False,False,False,639.0,0.93,276.7
+2024-01-18,Cafeteria,False,False,False,639.0,0.93,50.3
+2024-01-18,Sports Complex,False,False,False,639.0,0.93,66.1
+2024-01-19,Hostel,False,False,False,493.0,0.61,397.4
+2024-01-19,Library,False,False,False,493.0,0.61,135.4
+2024-01-19,Academic Block,False,False,False,493.0,0.61,236.6
+2024-01-19,Cafeteria,False,False,False,493.0,0.61,58.3
+2024-01-19,Sports Complex,False,False,False,493.0,0.61,46.3
+2024-01-20,Hostel,True,False,False,465.0,1.41,432.3
+2024-01-20,Library,True,False,False,465.0,1.41,74.5
+2024-01-20,Academic Block,True,False,False,465.0,1.41,168.5
+2024-01-20,Cafeteria,True,False,False,465.0,1.41,36.1
+2024-01-20,Sports Complex,True,False,False,465.0,1.41,68.8
+2024-01-21,Hostel,True,False,False,337.0,3.21,335.1
+2024-01-21,Library,True,False,False,337.0,3.21,1.1
+2024-01-21,Academic Block,True,False,False,337.0,3.21,135.3
+2024-01-21,Cafeteria,True,False,False,337.0,3.21,0.0
+2024-01-21,Sports Complex,True,False,False,337.0,3.21,33.5
+2024-01-22,Hostel,False,False,False,334.0,1.0,321.7
+2024-01-22,Library,False,False,False,334.0,1.0,104.4
+2024-01-22,Academic Block,False,False,False,334.0,1.0,188.3
+2024-01-22,Cafeteria,False,False,False,334.0,1.0,0.0
+2024-01-22,Sports Complex,False,False,False,334.0,1.0,0.0
+2024-01-23,Hostel,False,False,False,437.0,2.57,363.4
+2024-01-23,Library,False,False,False,437.0,2.57,86.6
+2024-01-23,Academic Block,False,False,False,437.0,2.57,-201.2
+2024-01-23,Cafeteria,False,False,False,437.0,2.57,0.0
+2024-01-23,Sports Complex,False,False,False,437.0,2.57,0.0
+2024-01-24,Hostel,False,True,False,,2.77,418.9
+2024-01-24,Library,False,True,False,404.0,2.77,174.3
+2024-01-24,Academic Block,False,True,False,404.0,2.77,196.2
+2024-01-24,Cafeteria,False,True,False,404.0,2.77,33.0
+2024-01-24,Sports Complex,False,True,False,404.0,2.77,0.0
+2024-01-25,Hostel,False,False,False,534.0,4.03,393.8
+2024-01-25,Library,False,False,False,534.0,4.03,134.9
+2024-01-25,Academic Block,False,False,False,534.0,4.03,229.6
+2024-01-25,Cafeteria,False,False,False,534.0,4.03,1.1
+2024-01-25,Sports Complex,False,False,False,534.0,4.03,3.4
+2024-01-26,Hostel,False,False,False,505.0,1.99,404.4
+2024-01-26,Library,False,False,False,505.0,1.99,141.2
+2024-01-26,Academic Block,False,False,False,505.0,1.99,195.1
+2024-01-26,Cafeteria,False,False,False,505.0,1.99,28.9
+2024-01-26,Sports Complex,False,False,False,505.0,1.99,14.9
+2024-01-27,Hostel,True,False,False,460.0,1.86,431.9
+2024-01-27,Library,True,False,False,460.0,1.86,70.2
+2024-01-27,Academic Block,True,False,False,460.0,1.86,160.1
+2024-01-27,Cafeteria,True,False,False,460.0,1.86,30.0
+2024-01-27,Sports Complex,True,False,False,460.0,1.86,76.6
+2024-01-28,Hostel,True,False,False,671.0,1.17,518.8
+2024-01-28,Library,True,False,False,671.0,1.17,176.1
+2024-01-28,Academic Block,True,False,False,671.0,1.17,237.8
+2024-01-28,Cafeteria,True,False,False,671.0,1.17,71.0
+2024-01-28,Sports Complex,True,False,False,671.0,1.17,161.9
+2024-01-29,Hostel,False,False,False,380.0,1.85,388.3
+2024-01-29,Library,False,False,False,380.0,1.85,66.8
+2024-01-29,Academic Block,False,False,False,,1.85,172.9
+2024-01-29,Cafeteria,False,False,False,380.0,1.85,3.6
+2024-01-29,Sports Complex,False,False,False,380.0,1.85,0.0
+2024-01-30,Hostel,False,False,False,348.0,0.49,373.2
+2024-01-30,Library,False,False,False,348.0,0.49,102.1
+2024-01-30,Academic Block,False,False,False,348.0,0.49,196.4
+2024-01-30,Cafeteria,False,False,False,348.0,0.49,42.7
+2024-01-30,Sports Complex,False,False,False,348.0,0.49,0.0
+2024-01-31,Hostel,False,False,False,474.0,2.79,372.6
+2024-01-31,Library,False,False,False,474.0,2.79,153.2
+2024-01-31,Academic Block,False,False,False,474.0,2.79,205.6
+2024-01-31,Cafeteria,False,False,False,474.0,2.79,23.1
+2024-01-31,Sports Complex,False,False,False,474.0,2.79,0.0
+2024-02-01,Hostel,False,False,False,397.0,1.12,352.9
+2024-02-01,Library,False,False,False,397.0,1.12,120.9
+2024-02-01,Academic Block,False,False,False,397.0,1.12,237.1
+2024-02-01,Cafeteria,False,False,False,397.0,1.12,17.9
+2024-02-01,Sports Complex,False,False,False,397.0,1.12,8.5
+2024-02-02,Hostel,False,False,False,411.0,1.05,324.5
+2024-02-02,Library,False,False,False,411.0,1.05,153.3
+2024-02-02,Academic Block,False,False,False,411.0,1.05,223.7
+2024-02-02,Cafeteria,False,False,False,411.0,1.05,16.8
+2024-02-02,Sports Complex,False,False,False,411.0,1.05,0.0
+2024-02-03,Hostel,True,False,True,593.0,1.96,489.9
+2024-02-03,Library,True,False,True,593.0,1.96,109.8
+2024-02-03,Academic Block,True,False,True,593.0,1.96,364.6
+2024-02-03,Cafeteria,True,False,True,593.0,1.96,184.1
+2024-02-03,Sports Complex,True,False,True,593.0,1.96,250.3
+2024-02-04,Hostel,True,True,False,326.0,1.12,506.5
+2024-02-04,Library,True,True,False,,1.12,160.2
+2024-02-04,Academic Block,True,True,False,326.0,1.12,151.6
+2024-02-04,Cafeteria,True,True,False,326.0,1.12,48.7
+2024-02-04,Sports Complex,True,True,False,326.0,1.12,1.1
+2024-02-05,Hostel,False,False,False,442.0,1.7,337.1
+2024-02-05,Library,False,False,False,442.0,1.7,127.9
+2024-02-05,Academic Block,False,False,False,442.0,1.7,211.3
+2024-02-05,Cafeteria,False,False,False,442.0,1.7,25.6
+2024-02-05,Sports Complex,False,False,False,442.0,1.7,21.8
+2024-02-06,Hostel,False,False,False,448.0,1.15,400.6
+2024-02-06,Library,False,False,False,448.0,1.15,130.8
+2024-02-06,Academic Block,False,False,False,448.0,1.15,217.4
+2024-02-06,Cafeteria,False,False,False,448.0,1.15,11.6
+2024-02-06,Sports Complex,False,False,False,448.0,1.15,32.0
+2024-02-07,Hostel,False,True,False,526.0,2.36,480.3
+2024-02-07,Library,False,True,False,526.0,2.36,211.4
+2024-02-07,Academic Block,False,True,False,526.0,2.36,230.7
+2024-02-07,Cafeteria,False,True,False,526.0,2.36,75.8
+2024-02-07,Sports Complex,False,True,False,526.0,2.36,20.7
+2024-02-08,Hostel,False,False,False,465.0,1.83,378.3
+2024-02-08,Library,False,False,False,465.0,1.83,126.2
+2024-02-08,Academic Block,False,False,False,465.0,1.83,223.5
+2024-02-08,Cafeteria,False,False,False,465.0,1.83,32.3
+2024-02-08,Sports Complex,False,False,False,,1.83,34.6
+2024-02-09,Hostel,False,False,False,448.0,1.82,383.5
+2024-02-09,Library,False,False,False,448.0,1.82,133.9
+2024-02-09,Academic Block,False,False,False,448.0,1.82,218.7
+2024-02-09,Cafeteria,False,False,False,448.0,1.82,0.8
+2024-02-09,Sports Complex,False,False,False,448.0,1.82,1.2
+2024-02-10,Hostel,True,False,True,382.0,2.0,418.3
+2024-02-10,Library,True,False,True,382.0,2.0,40.1
+2024-02-10,Academic Block,True,False,True,382.0,2.0,271.2
+2024-02-10,Cafeteria,True,False,True,382.0,2.0,149.7
+2024-02-10,Sports Complex,True,False,True,382.0,2.0,152.5
+2024-02-11,Hostel,True,False,False,,0.0,448.2
+2024-02-11,Library,True,False,False,413.0,0.0,115.4
+2024-02-11,Academic Block,True,False,False,413.0,0.0,-241.0
+2024-02-11,Cafeteria,True,False,False,413.0,0.0,64.7
+2024-02-11,Sports Complex,True,False,False,413.0,0.0,84.4
+2024-02-12,Hostel,False,False,False,530.0,2.79,389.0
+2024-02-12,Library,False,False,False,530.0,2.79,128.2
+2024-02-12,Academic Block,False,False,False,530.0,2.79,281.8
+2024-02-12,Cafeteria,False,False,False,530.0,2.79,59.9
+2024-02-12,Sports Complex,False,False,False,530.0,2.79,0.0
+2024-02-13,Hostel,False,False,False,349.0,2.23,314.5
+2024-02-13,Library,False,False,False,349.0,2.23,73.9
+2024-02-13,Academic Block,False,False,False,349.0,2.23,188.2
+2024-02-13,Cafeteria,False,False,False,349.0,2.23,0.0
+2024-02-13,Sports Complex,False,False,False,349.0,2.23,0.0
+2024-02-14,Hostel,False,True,False,378.0,0.0,504.3
+2024-02-14,Library,False,True,False,378.0,0.0,192.2
+2024-02-14,Academic Block,False,True,False,378.0,0.0,239.6
+2024-02-14,Cafeteria,False,True,False,378.0,0.0,14.8
+2024-02-14,Sports Complex,False,True,False,378.0,0.0,39.9
+2024-02-15,Hostel,False,False,True,442.0,3.72,335.0
+2024-02-15,Library,False,False,True,442.0,3.72,95.6
+2024-02-15,Academic Block,False,False,True,442.0,3.72,301.7
+2024-02-15,Cafeteria,False,False,True,442.0,3.72,132.3
+2024-02-15,Sports Complex,False,False,True,442.0,3.72,56.9
+2024-02-16,Hostel,False,False,False,482.0,0.36,410.7
+2024-02-16,Library,False,False,False,482.0,0.36,164.6
+2024-02-16,Academic Block,False,False,False,482.0,0.36,231.6
+2024-02-16,Cafeteria,False,False,False,482.0,0.36,55.0
+2024-02-16,Sports Complex,False,False,False,482.0,0.36,35.3
+2024-02-17,Hostel,True,False,True,368.0,1.21,455.8
+2024-02-17,Library,True,False,True,,1.21,62.6
+2024-02-17,Academic Block,True,False,True,368.0,1.21,268.7
+2024-02-17,Cafeteria,True,False,True,368.0,1.21,134.2
+2024-02-17,Sports Complex,True,False,True,368.0,1.21,141.7
+2024-02-18,Hostel,True,False,False,434.0,0.94,-460.9
+2024-02-18,Library,True,False,False,434.0,0.94,118.9
+2024-02-18,Academic Block,True,False,False,434.0,0.94,212.9
+2024-02-18,Cafeteria,True,False,False,434.0,0.94,39.9
+2024-02-18,Sports Complex,True,False,False,,0.94,51.9
+2024-02-19,Hostel,False,False,False,550.0,0.65,415.3
+2024-02-19,Library,False,False,False,550.0,0.65,181.8
+2024-02-19,Academic Block,False,False,False,550.0,0.65,277.1
+2024-02-19,Cafeteria,False,False,False,550.0,0.65,33.8
+2024-02-19,Sports Complex,False,False,False,550.0,0.65,31.9
+2024-02-20,Hostel,False,True,False,390.0,1.37,457.0
+2024-02-20,Library,False,True,False,390.0,1.37,206.2
+2024-02-20,Academic Block,False,True,False,390.0,1.37,206.3
+2024-02-20,Cafeteria,False,True,False,390.0,1.37,5.2
+2024-02-20,Sports Complex,False,True,False,390.0,1.37,0.5
+2024-02-21,Hostel,False,False,False,,0.27,388.4
+2024-02-21,Library,False,False,False,445.0,0.27,172.7
+2024-02-21,Academic Block,False,False,False,445.0,0.27,219.6
+2024-02-21,Cafeteria,False,False,False,445.0,0.27,13.4
+2024-02-21,Sports Complex,False,False,False,445.0,0.27,55.7
+2024-02-22,Hostel,False,False,False,584.0,0.85,413.7
+2024-02-22,Library,False,False,False,584.0,0.85,189.4
+2024-02-22,Academic Block,False,False,False,584.0,0.85,273.0
+2024-02-22,Cafeteria,False,False,False,584.0,0.85,84.0
+2024-02-22,Sports Complex,False,False,False,584.0,0.85,49.7
+2024-02-23,Hostel,False,False,False,387.0,0.04,366.2
+2024-02-23,Library,False,False,False,387.0,0.04,96.0
+2024-02-23,Academic Block,False,False,False,387.0,0.04,236.1
+2024-02-23,Cafeteria,False,False,False,387.0,0.04,32.7
+2024-02-23,Sports Complex,False,False,False,387.0,0.04,3.4
+2024-02-24,Hostel,True,False,True,,2.83,379.7
+2024-02-24,Library,True,False,True,404.0,2.83,27.1
+2024-02-24,Academic Block,True,False,True,404.0,2.83,315.4
+2024-02-24,Cafeteria,True,False,True,404.0,2.83,84.1
+2024-02-24,Sports Complex,True,False,True,404.0,2.83,130.8
+2024-02-25,Hostel,True,False,False,484.0,1.81,438.0
+2024-02-25,Library,True,False,False,484.0,1.81,82.8
+2024-02-25,Academic Block,True,False,False,484.0,1.81,-178.9
+2024-02-25,Cafeteria,True,False,False,484.0,1.81,60.5
+2024-02-25,Sports Complex,True,False,False,484.0,1.81,67.1
+2024-02-26,Hostel,False,False,False,428.0,1.54,379.1
+2024-02-26,Library,False,False,False,428.0,1.54,92.0
+2024-02-26,Academic Block,False,False,False,428.0,1.54,229.2
+2024-02-26,Cafeteria,False,False,False,428.0,1.54,30.5
+2024-02-26,Sports Complex,False,False,False,428.0,1.54,0.0
+2024-02-27,Hostel,False,False,False,340.0,0.91,345.0
+2024-02-27,Library,False,False,False,340.0,0.91,68.9
+2024-02-27,Academic Block,False,False,False,340.0,0.91,202.7
+2024-02-27,Cafeteria,False,False,False,340.0,0.91,0.0
+2024-02-27,Sports Complex,False,False,False,340.0,0.91,0.0
+2024-02-28,Hostel,False,False,False,508.0,2.6,367.1
+2024-02-28,Library,False,False,False,508.0,2.6,98.0
+2024-02-28,Academic Block,False,False,False,508.0,2.6,228.1
+2024-02-28,Cafeteria,False,False,False,508.0,2.6,23.5
+2024-02-28,Sports Complex,False,False,False,508.0,2.6,5.1
+2024-02-29,Hostel,False,False,False,460.0,2.13,387.4
+2024-02-29,Library,False,False,False,460.0,2.13,118.0
+2024-02-29,Academic Block,False,False,False,460.0,2.13,220.0
+2024-02-29,Cafeteria,False,False,False,460.0,2.13,6.8
+2024-02-29,Sports Complex,False,False,False,460.0,2.13,-35.5
+2024-03-01,Hostel,False,False,False,422.0,1.46,365.6
+2024-03-01,Library,False,False,False,422.0,1.46,109.9
+2024-03-01,Academic Block,False,False,False,422.0,1.46,253.8
+2024-03-01,Cafeteria,False,False,False,422.0,1.46,48.3
+2024-03-01,Sports Complex,False,False,False,422.0,1.46,0.0
+2024-03-02,Hostel,True,False,False,453.0,2.83,410.1
+2024-03-02,Library,True,False,False,453.0,2.83,83.7
+2024-03-02,Academic Block,True,False,False,453.0,2.83,168.8
+2024-03-02,Cafeteria,True,False,False,453.0,2.83,13.1
+2024-03-02,Sports Complex,True,False,False,453.0,2.83,25.9
+2024-03-03,Hostel,True,True,False,374.0,1.35,507.5
+2024-03-03,Library,True,True,False,374.0,1.35,199.0
+2024-03-03,Academic Block,True,True,False,374.0,1.35,198.3
+2024-03-03,Cafeteria,True,True,False,374.0,1.35,0.0
+2024-03-03,Sports Complex,True,True,False,374.0,1.35,38.9
+2024-03-04,Hostel,False,False,False,,1.41,325.1
+2024-03-04,Library,False,False,False,359.0,1.41,90.3
+2024-03-04,Academic Block,False,False,False,359.0,1.41,204.8
+2024-03-04,Cafeteria,False,False,False,359.0,1.41,0.0
+2024-03-04,Sports Complex,False,False,False,359.0,1.41,0.0
+2024-03-05,Hostel,False,False,False,587.0,0.75,425.6
+2024-03-05,Library,False,False,False,587.0,0.75,156.0
+2024-03-05,Academic Block,False,False,False,587.0,0.75,293.0
+2024-03-05,Cafeteria,False,False,False,587.0,0.75,83.8
+2024-03-05,Sports Complex,False,False,False,587.0,0.75,81.7
+2024-03-06,Hostel,False,False,False,411.0,2.51,361.0
+2024-03-06,Library,False,False,False,411.0,2.51,99.7
+2024-03-06,Academic Block,False,False,False,,2.51,215.6
+2024-03-06,Cafeteria,False,False,False,411.0,2.51,0.0
+2024-03-06,Sports Complex,False,False,False,411.0,2.51,0.0
+2024-03-07,Hostel,False,True,False,476.0,1.05,482.0
+2024-03-07,Library,False,True,False,476.0,1.05,253.0
+2024-03-07,Academic Block,False,True,False,476.0,1.05,238.7
+2024-03-07,Cafeteria,False,True,False,476.0,1.05,58.0
+2024-03-07,Sports Complex,False,True,False,476.0,1.05,33.1
+2024-03-08,Hostel,False,False,False,358.0,3.93,286.0
+2024-03-08,Library,False,False,False,358.0,3.93,64.8
+2024-03-08,Academic Block,False,False,False,358.0,3.93,175.6
+2024-03-08,Cafeteria,False,False,False,358.0,3.93,0.0
+2024-03-08,Sports Complex,False,False,False,358.0,3.93,0.0
+2024-03-09,Hostel,True,False,False,328.0,2.46,377.8
+2024-03-09,Library,True,False,False,328.0,2.46,58.7
+2024-03-09,Academic Block,True,False,False,328.0,2.46,167.7
+2024-03-09,Cafeteria,True,False,False,328.0,2.46,4.9
+2024-03-09,Sports Complex,True,False,False,328.0,2.46,0.0
+2024-03-10,Hostel,True,False,False,429.0,0.8,446.5
+2024-03-10,Library,True,False,False,429.0,0.8,71.7
+2024-03-10,Academic Block,True,False,False,429.0,0.8,195.5
+2024-03-10,Cafeteria,True,False,False,429.0,0.8,12.6
+2024-03-10,Sports Complex,True,False,False,429.0,0.8,101.1
+2024-03-11,Hostel,False,False,False,511.0,0.07,406.6
+2024-03-11,Library,False,False,False,511.0,0.07,166.8
+2024-03-11,Academic Block,False,False,False,511.0,0.07,245.2
+2024-03-11,Cafeteria,False,False,False,511.0,0.07,46.1
+2024-03-11,Sports Complex,False,False,False,511.0,0.07,67.7
+2024-03-12,Hostel,False,False,False,587.0,1.85,407.3
+2024-03-12,Library,False,False,False,587.0,1.85,171.6
+2024-03-12,Academic Block,False,False,False,587.0,1.85,282.3
+2024-03-12,Cafeteria,False,False,False,587.0,1.85,73.8
+2024-03-12,Sports Complex,False,False,False,587.0,1.85,3.9
+2024-03-13,Hostel,False,False,False,,0.16,371.1
+2024-03-13,Library,False,False,False,414.0,0.16,158.0
+2024-03-13,Academic Block,False,False,False,414.0,0.16,210.8
+2024-03-13,Cafeteria,False,False,False,414.0,0.16,47.7
+2024-03-13,Sports Complex,False,False,False,414.0,0.16,23.8
+2024-03-14,Hostel,False,False,False,520.0,0.73,-395.8
+2024-03-14,Library,False,False,False,520.0,0.73,194.0
+2024-03-14,Academic Block,False,False,False,520.0,0.73,285.7
+2024-03-14,Cafeteria,False,False,False,520.0,0.73,51.0
+2024-03-14,Sports Complex,False,False,False,520.0,0.73,-47.9
+2024-03-15,Hostel,False,False,False,419.0,0.73,383.0
+2024-03-15,Library,False,False,False,419.0,0.73,112.8
+2024-03-15,Academic Block,False,False,False,419.0,0.73,246.9
+2024-03-15,Cafeteria,False,False,False,419.0,0.73,25.5
+2024-03-15,Sports Complex,False,False,False,419.0,0.73,7.4
+2024-03-16,Hostel,True,False,True,431.0,0.42,463.9
+2024-03-16,Library,True,False,True,431.0,0.42,92.2
+2024-03-16,Academic Block,True,False,True,431.0,0.42,331.5
+2024-03-16,Cafeteria,True,False,True,431.0,0.42,151.1
+2024-03-16,Sports Complex,True,False,True,431.0,0.42,207.7
+2024-03-17,Hostel,True,False,False,242.0,2.07,334.7
+2024-03-17,Library,True,False,False,242.0,2.07,0.0
+2024-03-17,Academic Block,True,False,False,242.0,2.07,96.7
+2024-03-17,Cafeteria,True,False,False,242.0,2.07,0.0
+2024-03-17,Sports Complex,True,False,False,242.0,2.07,27.7
+2024-03-18,Hostel,False,False,False,358.0,0.0,363.0
+2024-03-18,Library,False,False,False,358.0,0.0,118.6
+2024-03-18,Academic Block,False,False,False,358.0,0.0,226.6
+2024-03-18,Cafeteria,False,False,False,358.0,0.0,54.7
+2024-03-18,Sports Complex,False,False,False,358.0,0.0,-13.8
+2024-03-19,Hostel,False,False,False,475.0,0.96,428.4
+2024-03-19,Library,False,False,False,475.0,0.96,148.4
+2024-03-19,Academic Block,False,False,False,475.0,0.96,213.8
+2024-03-19,Cafeteria,False,False,False,475.0,0.96,80.0
+2024-03-19,Sports Complex,False,False,False,475.0,0.96,57.0
+2024-03-20,Hostel,False,True,False,478.0,1.9,491.1
+2024-03-20,Library,False,True,False,478.0,1.9,243.9
+2024-03-20,Academic Block,False,True,False,478.0,1.9,178.0
+2024-03-20,Cafeteria,False,True,False,478.0,1.9,15.6
+2024-03-20,Sports Complex,False,True,False,478.0,1.9,26.0
+2024-03-21,Hostel,False,False,False,364.0,3.24,320.1
+2024-03-21,Library,False,False,False,364.0,3.24,54.9
+2024-03-21,Academic Block,False,False,False,364.0,3.24,179.7
+2024-03-21,Cafeteria,False,False,False,364.0,3.24,0.0
+2024-03-21,Sports Complex,False,False,False,364.0,3.24,-0.0
+2024-03-22,Hostel,False,True,False,298.0,3.06,409.6
+2024-03-22,Library,False,True,False,298.0,3.06,144.6
+2024-03-22,Academic Block,False,True,False,298.0,3.06,169.5
+2024-03-22,Cafeteria,False,True,False,298.0,3.06,0.0
+2024-03-22,Sports Complex,False,True,False,298.0,3.06,0.0
+2024-03-23,Hostel,True,False,False,440.0,2.64,431.6
+2024-03-23,Library,True,False,False,440.0,2.64,55.7
+2024-03-23,Academic Block,True,False,False,440.0,2.64,152.1
+2024-03-23,Cafeteria,True,False,False,440.0,2.64,40.6
+2024-03-23,Sports Complex,True,False,False,440.0,2.64,98.3
+2024-03-24,Hostel,True,False,False,447.0,4.68,386.1
+2024-03-24,Library,True,False,False,447.0,4.68,40.9
+2024-03-24,Academic Block,True,False,False,447.0,4.68,141.1
+2024-03-24,Cafeteria,True,False,False,447.0,4.68,0.0
+2024-03-24,Sports Complex,True,False,False,447.0,4.68,48.6
+2024-03-25,Hostel,False,False,False,567.0,1.92,384.6
+2024-03-25,Library,False,False,False,567.0,1.92,163.6
+2024-03-25,Academic Block,False,False,False,567.0,1.92,220.1
+2024-03-25,Cafeteria,False,False,False,567.0,1.92,52.4
+2024-03-25,Sports Complex,False,False,False,567.0,1.92,45.0
+2024-03-26,Hostel,False,True,False,407.0,1.85,490.8
+2024-03-26,Library,False,True,False,407.0,1.85,162.4
+2024-03-26,Academic Block,False,True,False,407.0,1.85,199.0
+2024-03-26,Cafeteria,False,True,False,407.0,1.85,0.0
+2024-03-26,Sports Complex,False,True,False,407.0,1.85,10.5
+2024-03-27,Hostel,False,False,False,316.0,2.47,310.0
+2024-03-27,Library,False,False,False,316.0,2.47,47.6
+2024-03-27,Academic Block,False,False,False,316.0,2.47,184.9
+2024-03-27,Cafeteria,False,False,False,316.0,2.47,0.0
+2024-03-27,Sports Complex,False,False,False,316.0,2.47,0.0
+2024-03-28,Hostel,False,False,False,476.0,1.89,372.3
+2024-03-28,Library,False,False,False,476.0,1.89,111.3
+2024-03-28,Academic Block,False,False,False,476.0,1.89,262.9
+2024-03-28,Cafeteria,False,False,False,476.0,1.89,43.0
+2024-03-28,Sports Complex,False,False,False,476.0,1.89,0.0
+2024-03-29,Hostel,False,False,False,428.0,1.44,378.8
+2024-03-29,Library,False,False,False,428.0,1.44,113.6
+2024-03-29,Academic Block,False,False,False,428.0,1.44,185.6
+2024-03-29,Cafeteria,False,False,False,428.0,1.44,3.7
+2024-03-29,Sports Complex,False,False,False,428.0,1.44,22.8
+2024-03-30,Hostel,True,False,False,372.0,1.92,420.9
+2024-03-30,Library,True,False,False,372.0,1.92,78.9
+2024-03-30,Academic Block,True,False,False,372.0,1.92,153.1
+2024-03-30,Cafeteria,True,False,False,372.0,1.92,4.9
+2024-03-30,Sports Complex,True,False,False,372.0,1.92,7.3
+2024-03-31,Hostel,True,True,False,392.0,1.2,511.9
+2024-03-31,Library,True,True,False,392.0,1.2,157.1
+2024-03-31,Academic Block,True,True,False,392.0,1.2,122.0
+2024-03-31,Cafeteria,True,True,False,392.0,1.2,56.8
+2024-03-31,Sports Complex,True,True,False,392.0,1.2,68.2
+2024-04-01,Hostel,False,False,False,437.0,1.88,377.2
+2024-04-01,Library,False,False,False,437.0,1.88,102.3
+2024-04-01,Academic Block,False,False,False,437.0,1.88,216.8
+2024-04-01,Cafeteria,False,False,False,437.0,1.88,0.0
+2024-04-01,Sports Complex,False,False,False,437.0,1.88,0.0
+2024-04-02,Hostel,False,False,False,505.0,1.21,373.2
+2024-04-02,Library,False,False,False,505.0,1.21,143.3
+2024-04-02,Academic Block,False,False,False,505.0,1.21,295.3
+2024-04-02,Cafeteria,False,False,False,505.0,1.21,32.9
+2024-04-02,Sports Complex,False,False,False,505.0,1.21,30.2
+2024-04-03,Hostel,False,False,False,343.0,2.07,337.3
+2024-04-03,Library,False,False,False,343.0,2.07,83.1
+2024-04-03,Academic Block,False,False,False,343.0,2.07,187.1
+2024-04-03,Cafeteria,False,False,False,343.0,2.07,27.8
+2024-04-03,Sports Complex,False,False,False,343.0,2.07,0.0
+2024-04-04,Hostel,False,False,False,439.0,0.21,418.7
+2024-04-04,Library,False,False,False,439.0,0.21,155.1
+2024-04-04,Academic Block,False,False,False,439.0,0.21,249.6
+2024-04-04,Cafeteria,False,False,False,439.0,0.21,61.1
+2024-04-04,Sports Complex,False,False,False,439.0,0.21,20.4
+2024-04-05,Hostel,False,False,False,505.0,2.65,353.2
+2024-04-05,Library,False,False,False,505.0,2.65,156.3
+2024-04-05,Academic Block,False,False,False,505.0,2.65,226.4
+2024-04-05,Cafeteria,False,False,False,505.0,2.65,41.1
+2024-04-05,Sports Complex,False,False,False,505.0,2.65,0.0
+2024-04-06,Hostel,True,False,False,425.0,0.35,460.8
+2024-04-06,Library,True,False,False,425.0,0.35,98.7
+2024-04-06,Academic Block,True,False,False,425.0,0.35,184.3
+2024-04-06,Cafeteria,True,False,False,425.0,0.35,31.7
+2024-04-06,Sports Complex,True,False,False,425.0,0.35,73.0
+2024-04-07,Hostel,True,False,False,466.0,1.1,445.4
+2024-04-07,Library,True,False,False,466.0,1.1,116.2
+2024-04-07,Academic Block,True,False,False,466.0,1.1,224.1
+2024-04-07,Cafeteria,True,False,False,466.0,1.1,44.9
+2024-04-07,Sports Complex,True,False,False,466.0,1.1,76.8
+2024-04-08,Hostel,False,False,False,390.0,1.09,354.5
+2024-04-08,Library,False,False,False,390.0,1.09,103.5
+2024-04-08,Academic Block,False,False,False,390.0,1.09,258.0
+2024-04-08,Cafeteria,False,False,False,390.0,1.09,16.0
+2024-04-08,Sports Complex,False,False,False,390.0,1.09,0.0
+2024-04-09,Hostel,False,False,False,422.0,1.5,359.7
+2024-04-09,Library,False,False,False,422.0,1.5,88.5
+2024-04-09,Academic Block,False,False,False,422.0,1.5,222.0
+2024-04-09,Cafeteria,False,False,False,422.0,1.5,2.1
+2024-04-09,Sports Complex,False,False,False,422.0,1.5,0.0
+2024-04-10,Hostel,False,False,False,372.0,2.48,-337.1
+2024-04-10,Library,False,False,False,372.0,2.48,75.6
+2024-04-10,Academic Block,False,False,False,372.0,2.48,210.2
+2024-04-10,Cafeteria,False,False,False,372.0,2.48,9.0
+2024-04-10,Sports Complex,False,False,False,372.0,2.48,0.0
+2024-04-11,Hostel,False,False,False,387.0,1.05,364.3
+2024-04-11,Library,False,False,False,387.0,1.05,155.1
+2024-04-11,Academic Block,False,False,False,387.0,1.05,217.0
+2024-04-11,Cafeteria,False,False,False,387.0,1.05,23.5
+2024-04-11,Sports Complex,False,False,False,387.0,1.05,0.0
+2024-04-12,Hostel,False,True,False,431.0,2.83,441.0
+2024-04-12,Library,False,True,False,431.0,2.83,172.6
+2024-04-12,Academic Block,False,True,False,431.0,2.83,189.2
+2024-04-12,Cafeteria,False,True,False,431.0,2.83,7.1
+2024-04-12,Sports Complex,False,True,False,431.0,2.83,0.0
+2024-04-13,Hostel,True,True,False,497.0,1.55,493.4
+2024-04-13,Library,True,True,False,497.0,1.55,158.9
+2024-04-13,Academic Block,True,True,False,497.0,1.55,152.0
+2024-04-13,Cafeteria,True,True,False,497.0,1.55,35.5
+2024-04-13,Sports Complex,True,True,False,497.0,1.55,64.3
+2024-04-14,Hostel,True,True,False,468.0,1.89,543.9
+2024-04-14,Library,True,True,False,468.0,1.89,159.0
+2024-04-14,Academic Block,True,True,False,468.0,1.89,186.3
+2024-04-14,Cafeteria,True,True,False,468.0,1.89,0.0
+2024-04-14,Sports Complex,True,True,False,468.0,1.89,69.3
+2024-04-15,Hostel,False,False,False,403.0,3.95,313.5
+2024-04-15,Library,False,False,False,403.0,3.95,64.5
+2024-04-15,Academic Block,False,False,False,403.0,3.95,194.0
+2024-04-15,Cafeteria,False,False,False,403.0,3.95,0.0
+2024-04-15,Sports Complex,False,False,False,403.0,3.95,0.0
+2024-04-16,Hostel,False,False,False,437.0,2.79,342.0
+2024-04-16,Library,False,False,False,437.0,2.79,90.0
+2024-04-16,Academic Block,False,False,False,437.0,2.79,205.6
+2024-04-16,Cafeteria,False,False,False,437.0,2.79,0.0
+2024-04-16,Sports Complex,False,False,False,437.0,2.79,0.0
+2024-04-17,Hostel,False,False,False,555.0,0.7,426.3
+2024-04-17,Library,False,False,False,555.0,0.7,180.5
+2024-04-17,Academic Block,False,False,False,555.0,0.7,280.9
+2024-04-17,Cafeteria,False,False,False,555.0,0.7,81.3
+2024-04-17,Sports Complex,False,False,False,555.0,0.7,-28.2
+2024-04-18,Hostel,False,False,False,376.0,1.73,371.8
+2024-04-18,Library,False,False,False,376.0,1.73,99.8
+2024-04-18,Academic Block,False,False,False,376.0,1.73,159.4
+2024-04-18,Cafeteria,False,False,False,376.0,1.73,0.0
+2024-04-18,Sports Complex,False,False,False,376.0,1.73,4.2
+2024-04-19,Hostel,False,True,False,611.0,0.88,503.5
+2024-04-19,Library,False,True,False,611.0,0.88,319.1
+2024-04-19,Academic Block,False,True,False,611.0,0.88,279.1
+2024-04-19,Cafeteria,False,True,False,611.0,0.88,112.0
+2024-04-19,Sports Complex,False,True,False,611.0,0.88,77.6
+2024-04-20,Hostel,True,False,False,459.0,3.91,388.9
+2024-04-20,Library,True,False,False,459.0,3.91,74.3
+2024-04-20,Academic Block,True,False,False,459.0,3.91,122.2
+2024-04-20,Cafeteria,True,False,False,459.0,3.91,0.0
+2024-04-20,Sports Complex,True,False,False,459.0,3.91,60.8
+2024-04-21,Hostel,True,True,False,431.0,1.88,543.9
+2024-04-21,Library,True,True,False,431.0,1.88,148.3
+2024-04-21,Academic Block,True,True,False,431.0,1.88,178.2
+2024-04-21,Cafeteria,True,True,False,431.0,1.88,24.6
+2024-04-21,Sports Complex,True,True,False,431.0,1.88,88.2
+2024-04-22,Hostel,False,False,False,461.0,1.71,350.3
+2024-04-22,Library,False,False,False,461.0,1.71,119.2
+2024-04-22,Academic Block,False,False,False,461.0,1.71,245.2
+2024-04-22,Cafeteria,False,False,False,461.0,1.71,0.0
+2024-04-22,Sports Complex,False,False,False,461.0,1.71,22.8
+2024-04-23,Hostel,False,True,False,399.0,2.57,458.9
+2024-04-23,Library,False,True,False,399.0,2.57,220.8
+2024-04-23,Academic Block,False,True,False,399.0,2.57,182.1
+2024-04-23,Cafeteria,False,True,False,399.0,2.57,0.0
+2024-04-23,Sports Complex,False,True,False,399.0,2.57,0.0
+2024-04-24,Hostel,False,False,False,398.0,0.0,367.9
+2024-04-24,Library,False,False,False,398.0,0.0,137.6
+2024-04-24,Academic Block,False,False,False,398.0,0.0,247.7
+2024-04-24,Cafeteria,False,False,False,398.0,0.0,22.8
+2024-04-24,Sports Complex,False,False,False,398.0,0.0,29.2
+2024-04-25,Hostel,False,False,False,499.0,0.62,386.3
+2024-04-25,Library,False,False,False,499.0,0.62,164.7
+2024-04-25,Academic Block,False,False,False,499.0,0.62,268.7
+2024-04-25,Cafeteria,False,False,False,499.0,0.62,70.6
+2024-04-25,Sports Complex,False,False,False,499.0,0.62,0.0
+2024-04-26,Hostel,False,False,False,525.0,1.89,408.8
+2024-04-26,Library,False,False,False,525.0,1.89,127.9
+2024-04-26,Academic Block,False,False,False,525.0,1.89,212.3
+2024-04-26,Cafeteria,False,False,False,525.0,1.89,11.6
+2024-04-26,Sports Complex,False,False,False,525.0,1.89,24.9
+2024-04-27,Hostel,True,False,False,316.0,3.18,355.2
+2024-04-27,Library,True,False,False,316.0,3.18,38.3
+2024-04-27,Academic Block,True,False,False,316.0,3.18,121.1
+2024-04-27,Cafeteria,True,False,False,316.0,3.18,0.0
+2024-04-27,Sports Complex,True,False,False,316.0,3.18,0.0
+2024-04-28,Hostel,True,False,False,517.0,0.83,455.2
+2024-04-28,Library,True,False,False,517.0,0.83,141.3
+2024-04-28,Academic Block,True,False,False,517.0,0.83,200.8
+2024-04-28,Cafeteria,True,False,False,517.0,0.83,52.1
+2024-04-28,Sports Complex,True,False,False,517.0,0.83,132.1
+2024-04-29,Hostel,False,False,False,364.0,3.45,314.8
+2024-04-29,Library,False,False,False,364.0,3.45,72.9
+2024-04-29,Academic Block,False,False,False,364.0,3.45,153.9
+2024-04-29,Cafeteria,False,False,False,364.0,3.45,0.0
+2024-04-29,Sports Complex,False,False,False,364.0,3.45,0.0
+2024-04-30,Hostel,False,True,True,434.0,0.0,474.6
+2024-04-30,Library,False,True,True,434.0,0.0,236.1
+2024-04-30,Academic Block,False,True,True,434.0,0.0,330.2
+2024-04-30,Cafeteria,False,True,True,434.0,0.0,166.2
+2024-04-30,Sports Complex,False,True,True,,0.0,153.8
+2024-05-01,Hostel,False,False,False,446.0,0.0,403.9
+2024-05-01,Library,False,False,False,446.0,0.0,139.0
+2024-05-01,Academic Block,False,False,False,446.0,0.0,261.5
+2024-05-01,Cafeteria,False,False,False,446.0,0.0,11.0
+2024-05-01,Sports Complex,False,False,False,446.0,0.0,0.0
+2024-05-02,Hostel,False,True,False,,2.55,430.0
+2024-05-02,Library,False,True,False,411.0,2.55,203.6
+2024-05-02,Academic Block,False,True,False,411.0,2.55,207.3
+2024-05-02,Cafeteria,False,True,False,411.0,2.55,21.4
+2024-05-02,Sports Complex,False,True,False,411.0,2.55,0.0
+2024-05-03,Hostel,False,False,False,463.0,0.0,408.3
+2024-05-03,Library,False,False,False,463.0,0.0,157.1
+2024-05-03,Academic Block,False,False,False,463.0,0.0,287.0
+2024-05-03,Cafeteria,False,False,False,463.0,0.0,34.4
+2024-05-03,Sports Complex,False,False,False,463.0,0.0,18.9
+2024-05-04,Hostel,True,False,False,465.0,1.53,403.8
+2024-05-04,Library,True,False,False,465.0,1.53,59.9
+2024-05-04,Academic Block,True,False,False,465.0,1.53,206.7
+2024-05-04,Cafeteria,True,False,False,465.0,1.53,36.3
+2024-05-04,Sports Complex,True,False,False,465.0,1.53,73.3
+2024-05-05,Hostel,True,False,False,390.0,1.08,426.3
+2024-05-05,Library,True,False,False,390.0,1.08,63.6
+2024-05-05,Academic Block,True,False,False,390.0,1.08,176.7
+2024-05-05,Cafeteria,True,False,False,390.0,1.08,20.3
+2024-05-05,Sports Complex,True,False,False,390.0,1.08,51.2
+2024-05-06,Hostel,False,False,False,363.0,0.0,375.0
+2024-05-06,Library,False,False,False,363.0,0.0,119.5
+2024-05-06,Academic Block,False,False,False,363.0,0.0,211.8
+2024-05-06,Cafeteria,False,False,False,363.0,0.0,37.8
+2024-05-06,Sports Complex,False,False,False,363.0,0.0,0.5
+2024-05-07,Hostel,False,False,False,248.0,1.84,295.8
+2024-05-07,Library,False,False,False,248.0,1.84,54.4
+2024-05-07,Academic Block,False,False,False,248.0,1.84,153.3
+2024-05-07,Cafeteria,False,False,False,248.0,1.84,0.0
+2024-05-07,Sports Complex,False,False,False,248.0,1.84,0.0
+2024-05-08,Hostel,False,False,False,477.0,1.21,427.0
+2024-05-08,Library,False,False,False,477.0,1.21,131.0
+2024-05-08,Academic Block,False,False,False,477.0,1.21,271.5
+2024-05-08,Cafeteria,False,False,False,477.0,1.21,12.0
+2024-05-08,Sports Complex,False,False,False,477.0,1.21,20.3
+2024-05-09,Hostel,False,False,False,596.0,3.46,436.6
+2024-05-09,Library,False,False,False,596.0,3.46,134.7
+2024-05-09,Academic Block,False,False,False,596.0,3.46,243.4
+2024-05-09,Cafeteria,False,False,False,596.0,3.46,36.4
+2024-05-09,Sports Complex,False,False,False,596.0,3.46,27.1
+2024-05-10,Hostel,False,False,False,385.0,0.65,353.8
+2024-05-10,Library,False,False,False,385.0,0.65,175.0
+2024-05-10,Academic Block,False,False,False,385.0,0.65,221.5
+2024-05-10,Cafeteria,False,False,False,385.0,0.65,2.7
+2024-05-10,Sports Complex,False,False,False,385.0,0.65,0.0
+2024-05-11,Hostel,True,False,True,337.0,1.16,425.8
+2024-05-11,Library,True,False,True,337.0,1.16,78.4
+2024-05-11,Academic Block,True,False,True,337.0,1.16,274.3
+2024-05-11,Cafeteria,True,False,True,337.0,1.16,124.4
+2024-05-11,Sports Complex,True,False,True,337.0,1.16,190.0
+2024-05-12,Hostel,True,False,False,646.0,0.0,542.2
+2024-05-12,Library,True,False,False,646.0,0.0,161.5
+2024-05-12,Academic Block,True,False,False,646.0,0.0,306.1
+2024-05-12,Cafeteria,True,False,False,646.0,0.0,100.0
+2024-05-12,Sports Complex,True,False,False,646.0,0.0,176.7
+2024-05-13,Hostel,False,False,True,549.0,2.78,366.2
+2024-05-13,Library,False,False,True,549.0,2.78,139.1
+2024-05-13,Academic Block,False,False,True,549.0,2.78,340.2
+2024-05-13,Cafeteria,False,False,True,549.0,2.78,178.0
+2024-05-13,Sports Complex,False,False,True,549.0,2.78,153.6
+2024-05-14,Hostel,False,False,False,377.0,2.02,339.6
+2024-05-14,Library,False,False,False,,2.02,97.4
+2024-05-14,Academic Block,False,False,False,377.0,2.02,183.2
+2024-05-14,Cafeteria,False,False,False,377.0,2.02,11.0
+2024-05-14,Sports Complex,False,False,False,377.0,2.02,0.0
+2024-05-15,Hostel,False,False,False,495.0,0.17,402.4
+2024-05-15,Library,False,False,False,495.0,0.17,177.8
+2024-05-15,Academic Block,False,False,False,495.0,0.17,223.0
+2024-05-15,Cafeteria,False,False,False,495.0,0.17,70.1
+2024-05-15,Sports Complex,False,False,False,495.0,0.17,30.0
+2024-05-16,Hostel,False,True,True,474.0,0.0,514.7
+2024-05-16,Library,False,True,True,474.0,0.0,253.1
+2024-05-16,Academic Block,False,True,True,474.0,0.0,374.5
+2024-05-16,Cafeteria,False,True,True,474.0,0.0,177.9
+2024-05-16,Sports Complex,False,True,True,474.0,0.0,170.8
+2024-05-17,Hostel,False,False,False,478.0,0.22,405.5
+2024-05-17,Library,False,False,False,478.0,0.22,186.5
+2024-05-17,Academic Block,False,False,False,478.0,0.22,272.8
+2024-05-17,Cafeteria,False,False,False,478.0,0.22,51.7
+2024-05-17,Sports Complex,False,False,False,478.0,0.22,20.3
+2024-05-18,Hostel,True,False,False,445.0,0.38,478.6
+2024-05-18,Library,True,False,False,445.0,0.38,151.1
+2024-05-18,Academic Block,True,False,False,445.0,0.38,209.6
+2024-05-18,Cafeteria,True,False,False,445.0,0.38,17.7
+2024-05-18,Sports Complex,True,False,False,445.0,0.38,130.5
+2024-05-19,Hostel,True,True,False,503.0,1.28,542.2
+2024-05-19,Library,True,True,False,503.0,1.28,192.2
+2024-05-19,Academic Block,True,True,False,503.0,1.28,236.7
+2024-05-19,Cafeteria,True,True,False,503.0,1.28,27.0
+2024-05-19,Sports Complex,True,True,False,503.0,1.28,58.1
+2024-05-20,Hostel,False,False,False,450.0,0.14,399.2
+2024-05-20,Library,False,False,False,450.0,0.14,105.6
+2024-05-20,Academic Block,False,False,False,450.0,0.14,204.2
+2024-05-20,Cafeteria,False,False,False,450.0,0.14,45.8
+2024-05-20,Sports Complex,False,False,False,450.0,0.14,18.4
+2024-05-21,Hostel,False,False,False,416.0,2.28,338.5
+2024-05-21,Library,False,False,False,416.0,2.28,143.2
+2024-05-21,Academic Block,False,False,False,416.0,2.28,237.6
+2024-05-21,Cafeteria,False,False,False,416.0,2.28,51.6
+2024-05-21,Sports Complex,False,False,False,416.0,2.28,0.0
+2024-05-22,Hostel,False,True,True,567.0,1.31,509.4
+2024-05-22,Library,False,True,True,567.0,1.31,263.1
+2024-05-22,Academic Block,False,True,True,567.0,1.31,393.0
+2024-05-22,Cafeteria,False,True,True,567.0,1.31,172.3
+2024-05-22,Sports Complex,False,True,True,567.0,1.31,135.6
+2024-05-23,Hostel,False,False,False,571.0,3.3,375.0
+2024-05-23,Library,False,False,False,571.0,3.3,121.8
+2024-05-23,Academic Block,False,False,False,571.0,3.3,235.6
+2024-05-23,Cafeteria,False,False,False,571.0,3.3,34.1
+2024-05-23,Sports Complex,False,False,False,571.0,3.3,20.8
+2024-05-24,Hostel,False,False,False,368.0,0.99,375.7
+2024-05-24,Library,False,False,False,368.0,0.99,120.8
+2024-05-24,Academic Block,False,False,False,368.0,0.99,262.0
+2024-05-24,Cafeteria,False,False,False,368.0,0.99,0.0
+2024-05-24,Sports Complex,False,False,False,,0.99,0.0
+2024-05-25,Hostel,True,False,False,426.0,1.64,452.2
+2024-05-25,Library,True,False,False,426.0,1.64,69.9
+2024-05-25,Academic Block,True,False,False,426.0,1.64,186.8
+2024-05-25,Cafeteria,True,False,False,426.0,1.64,30.1
+2024-05-25,Sports Complex,True,False,False,426.0,1.64,25.9
+2024-05-26,Hostel,True,False,False,418.0,1.96,380.4
+2024-05-26,Library,True,False,False,418.0,1.96,52.6
+2024-05-26,Academic Block,True,False,False,418.0,1.96,144.4
+2024-05-26,Cafeteria,True,False,False,418.0,1.96,11.8
+2024-05-26,Sports Complex,True,False,False,418.0,1.96,101.3
+2024-05-27,Hostel,False,False,False,496.0,1.39,403.0
+2024-05-27,Library,False,False,False,496.0,1.39,150.1
+2024-05-27,Academic Block,False,False,False,496.0,1.39,225.5
+2024-05-27,Cafeteria,False,False,False,496.0,1.39,12.6
+2024-05-27,Sports Complex,False,False,False,496.0,1.39,33.9
+2024-05-28,Hostel,False,False,False,444.0,1.31,382.2
+2024-05-28,Library,False,False,False,,1.31,144.8
+2024-05-28,Academic Block,False,False,False,444.0,1.31,215.0
+2024-05-28,Cafeteria,False,False,False,444.0,1.31,52.1
+2024-05-28,Sports Complex,False,False,False,444.0,1.31,0.0
+2024-05-29,Hostel,False,False,False,335.0,0.67,344.5
+2024-05-29,Library,False,False,False,335.0,0.67,119.6
+2024-05-29,Academic Block,False,False,False,335.0,0.67,187.6
+2024-05-29,Cafeteria,False,False,False,335.0,0.67,29.6
+2024-05-29,Sports Complex,False,False,False,335.0,0.67,0.0
+2024-05-30,Hostel,False,False,False,433.0,1.07,398.1
+2024-05-30,Library,False,False,False,433.0,1.07,167.5
+2024-05-30,Academic Block,False,False,False,433.0,1.07,226.5
+2024-05-30,Cafeteria,False,False,False,433.0,1.07,8.0
+2024-05-30,Sports Complex,False,False,False,433.0,1.07,55.0
+2024-05-31,Hostel,False,False,False,509.0,2.55,363.1
+2024-05-31,Library,False,False,False,509.0,2.55,142.1
+2024-05-31,Academic Block,False,False,False,509.0,2.55,242.3
+2024-05-31,Cafeteria,False,False,False,509.0,2.55,27.0
+2024-05-31,Sports Complex,False,False,False,509.0,2.55,21.0
+2024-06-01,Hostel,True,False,False,308.0,0.0,438.3
+2024-06-01,Library,True,False,False,308.0,0.0,59.7
+2024-06-01,Academic Block,True,False,False,308.0,0.0,217.1
+2024-06-01,Cafeteria,True,False,False,308.0,0.0,-0.0
+2024-06-01,Sports Complex,True,False,False,308.0,0.0,51.0
+2024-06-02,Hostel,True,False,False,351.0,2.29,437.8
+2024-06-02,Library,True,False,False,351.0,2.29,66.9
+2024-06-02,Academic Block,True,False,False,351.0,2.29,132.7
+2024-06-02,Cafeteria,True,False,False,351.0,2.29,0.0
+2024-06-02,Sports Complex,True,False,False,351.0,2.29,56.1
+2024-06-03,Hostel,False,False,False,339.0,2.39,359.2
+2024-06-03,Library,False,False,False,339.0,2.39,123.3
+2024-06-03,Academic Block,False,False,False,339.0,2.39,192.6
+2024-06-03,Cafeteria,False,False,False,,2.39,0.0
+2024-06-03,Sports Complex,False,False,False,339.0,2.39,0.0
+2024-06-04,Hostel,False,True,False,,1.5,464.5
+2024-06-04,Library,False,True,False,491.0,1.5,219.9
+2024-06-04,Academic Block,False,True,False,491.0,1.5,244.1
+2024-06-04,Cafeteria,False,True,False,491.0,1.5,39.4
+2024-06-04,Sports Complex,False,True,False,491.0,1.5,0.0
+2024-06-05,Hostel,False,False,False,400.0,2.67,348.0
+2024-06-05,Library,False,False,False,400.0,2.67,75.3
+2024-06-05,Academic Block,False,False,False,400.0,2.67,187.7
+2024-06-05,Cafeteria,False,False,False,400.0,2.67,24.8
+2024-06-05,Sports Complex,False,False,False,400.0,2.67,0.0
+2024-06-06,Hostel,False,False,False,389.0,1.87,382.4
+2024-06-06,Library,False,False,False,389.0,1.87,109.3
+2024-06-06,Academic Block,False,False,False,389.0,1.87,245.6
+2024-06-06,Cafeteria,False,False,False,389.0,1.87,-0.0
+2024-06-06,Sports Complex,False,False,False,389.0,1.87,0.0
+2024-06-07,Hostel,False,False,False,390.0,1.87,348.4
+2024-06-07,Library,False,False,False,390.0,1.87,135.8
+2024-06-07,Academic Block,False,False,False,390.0,1.87,183.8
+2024-06-07,Cafeteria,False,False,False,390.0,1.87,31.5
+2024-06-07,Sports Complex,False,False,False,390.0,1.87,0.0
+2024-06-08,Hostel,True,False,False,494.0,0.98,460.4
+2024-06-08,Library,True,False,False,494.0,0.98,102.8
+2024-06-08,Academic Block,True,False,False,494.0,0.98,196.9
+2024-06-08,Cafeteria,True,False,False,494.0,0.98,51.1
+2024-06-08,Sports Complex,True,False,False,494.0,0.98,75.5
+2024-06-09,Hostel,True,False,False,397.0,1.91,395.4
+2024-06-09,Library,True,False,False,397.0,1.91,47.5
+2024-06-09,Academic Block,True,False,False,397.0,1.91,212.6
+2024-06-09,Cafeteria,True,False,False,397.0,1.91,0.0
+2024-06-09,Sports Complex,True,False,False,397.0,1.91,32.6
+2024-06-10,Hostel,False,False,True,395.0,1.28,326.3
+2024-06-10,Library,False,False,True,395.0,1.28,125.8
+2024-06-10,Academic Block,False,False,True,395.0,1.28,334.8
+2024-06-10,Cafeteria,False,False,True,395.0,1.28,148.5
+2024-06-10,Sports Complex,False,False,True,395.0,1.28,126.5
+2024-06-11,Hostel,False,False,False,541.0,2.73,379.9
+2024-06-11,Library,False,False,False,541.0,2.73,125.5
+2024-06-11,Academic Block,False,False,False,541.0,2.73,234.6
+2024-06-11,Cafeteria,False,False,False,541.0,2.73,28.3
+2024-06-11,Sports Complex,False,False,False,541.0,2.73,9.9
+2024-06-12,Hostel,False,False,False,526.0,1.41,429.5
+2024-06-12,Library,False,False,False,526.0,1.41,165.9
+2024-06-12,Academic Block,False,False,False,526.0,1.41,234.3
+2024-06-12,Cafeteria,False,False,False,526.0,1.41,50.6
+2024-06-12,Sports Complex,False,False,False,526.0,1.41,16.5
+2024-06-13,Hostel,False,False,False,330.0,1.06,341.0
+2024-06-13,Library,False,False,False,330.0,1.06,100.7
+2024-06-13,Academic Block,False,False,False,330.0,1.06,208.5
+2024-06-13,Cafeteria,False,False,False,330.0,1.06,13.1
+2024-06-13,Sports Complex,False,False,False,330.0,1.06,0.0
+2024-06-14,Hostel,False,True,False,399.0,1.75,458.2
+2024-06-14,Library,False,True,False,399.0,1.75,-201.3
+2024-06-14,Academic Block,False,True,False,399.0,1.75,192.7
+2024-06-14,Cafeteria,False,True,False,399.0,1.75,0.8
+2024-06-14,Sports Complex,False,True,False,399.0,1.75,0.0
+2024-06-15,Hostel,True,False,False,401.0,0.41,482.5
+2024-06-15,Library,True,False,False,401.0,0.41,88.1
+2024-06-15,Academic Block,True,False,False,401.0,0.41,220.2
+2024-06-15,Cafeteria,True,False,False,401.0,0.41,45.0
+2024-06-15,Sports Complex,True,False,False,401.0,0.41,58.2
+2024-06-16,Hostel,True,False,False,300.0,1.58,381.8
+2024-06-16,Library,True,False,False,300.0,1.58,46.4
+2024-06-16,Academic Block,True,False,False,300.0,1.58,119.1
+2024-06-16,Cafeteria,True,False,False,300.0,1.58,0.0
+2024-06-16,Sports Complex,True,False,False,300.0,1.58,4.6
+2024-06-17,Hostel,False,False,False,499.0,1.21,375.4
+2024-06-17,Library,False,False,False,499.0,1.21,155.2
+2024-06-17,Academic Block,False,False,False,499.0,1.21,281.8
+2024-06-17,Cafeteria,False,False,False,499.0,1.21,70.5
+2024-06-17,Sports Complex,False,False,False,499.0,1.21,7.6
+2024-06-18,Hostel,False,False,False,413.0,0.83,389.3
+2024-06-18,Library,False,False,False,413.0,0.83,143.0
+2024-06-18,Academic Block,False,False,False,413.0,0.83,262.9
+2024-06-18,Cafeteria,False,False,False,413.0,0.83,31.6
+2024-06-18,Sports Complex,False,False,False,413.0,0.83,0.0
+2024-06-19,Hostel,False,False,False,390.0,1.18,376.9
+2024-06-19,Library,False,False,False,390.0,1.18,112.6
+2024-06-19,Academic Block,False,False,False,390.0,1.18,212.9
+2024-06-19,Cafeteria,False,False,False,390.0,1.18,11.0
+2024-06-19,Sports Complex,False,False,False,390.0,1.18,7.3
+2024-06-20,Hostel,False,False,False,500.0,0.23,416.7
+2024-06-20,Library,False,False,False,500.0,0.23,147.9
+2024-06-20,Academic Block,False,False,False,500.0,0.23,287.8
+2024-06-20,Cafeteria,False,False,False,500.0,0.23,42.2
+2024-06-20,Sports Complex,False,False,False,500.0,0.23,25.2
+2024-06-21,Hostel,False,False,False,425.0,2.61,335.4
+2024-06-21,Library,False,False,False,425.0,2.61,142.0
+2024-06-21,Academic Block,False,False,False,425.0,2.61,221.7
+2024-06-21,Cafeteria,False,False,False,425.0,2.61,-24.6
+2024-06-21,Sports Complex,False,False,False,425.0,2.61,0.0
+2024-06-22,Hostel,True,False,False,337.0,1.91,384.6
+2024-06-22,Library,True,False,False,337.0,1.91,-27.0
+2024-06-22,Academic Block,True,False,False,337.0,1.91,110.1
+2024-06-22,Cafeteria,True,False,False,337.0,1.91,0.7
+2024-06-22,Sports Complex,True,False,False,337.0,1.91,0.0
+2024-06-23,Hostel,True,True,False,543.0,2.3,546.6
+2024-06-23,Library,True,True,False,543.0,2.3,201.8
+2024-06-23,Academic Block,True,True,False,543.0,2.3,227.7
+2024-06-23,Cafeteria,True,True,False,543.0,2.3,40.0
+2024-06-23,Sports Complex,True,True,False,,2.3,102.4
+2024-06-24,Hostel,False,False,False,501.0,0.76,411.5
+2024-06-24,Library,False,False,False,501.0,0.76,159.6
+2024-06-24,Academic Block,False,False,False,501.0,0.76,249.3
+2024-06-24,Cafeteria,False,False,False,501.0,0.76,75.6
+2024-06-24,Sports Complex,False,False,False,501.0,0.76,54.0
+2024-06-25,Hostel,False,False,False,464.0,0.57,389.6
+2024-06-25,Library,False,False,False,464.0,0.57,120.9
+2024-06-25,Academic Block,False,False,False,464.0,0.57,235.5
+2024-06-25,Cafeteria,False,False,False,464.0,0.57,38.6
+2024-06-25,Sports Complex,False,False,False,464.0,0.57,4.8
+2024-06-26,Hostel,False,False,False,481.0,1.09,419.4
+2024-06-26,Library,False,False,False,481.0,1.09,175.3
+2024-06-26,Academic Block,False,False,False,481.0,1.09,-238.8
+2024-06-26,Cafeteria,False,False,False,481.0,1.09,36.2
+2024-06-26,Sports Complex,False,False,False,481.0,1.09,29.2
+2024-06-27,Hostel,False,True,False,523.0,2.93,465.8
+2024-06-27,Library,False,True,False,523.0,2.93,210.8
+2024-06-27,Academic Block,False,True,False,523.0,2.93,239.4
+2024-06-27,Cafeteria,False,True,False,523.0,2.93,35.8
+2024-06-27,Sports Complex,False,True,False,523.0,2.93,16.1
+2024-06-28,Hostel,False,False,False,507.0,2.17,369.6
+2024-06-28,Library,False,False,False,507.0,2.17,122.6
+2024-06-28,Academic Block,False,False,False,507.0,2.17,243.5
+2024-06-28,Cafeteria,False,False,False,507.0,2.17,34.5
+2024-06-28,Sports Complex,False,False,False,507.0,2.17,11.9
+2024-06-29,Hostel,True,False,False,456.0,2.69,418.9
+2024-06-29,Library,True,False,False,456.0,2.69,91.4
+2024-06-29,Academic Block,True,False,False,456.0,2.69,163.2
+2024-06-29,Cafeteria,True,False,False,456.0,2.69,14.8
+2024-06-29,Sports Complex,True,False,False,456.0,2.69,68.3
+2024-06-30,Hostel,True,True,False,544.0,2.15,555.5
+2024-06-30,Library,True,True,False,544.0,2.15,-196.3
+2024-06-30,Academic Block,True,True,False,544.0,2.15,207.9
+2024-06-30,Cafeteria,True,True,False,544.0,2.15,36.1
+2024-06-30,Sports Complex,True,True,False,544.0,2.15,66.7
+2024-07-01,Hostel,False,False,False,474.0,1.5,405.3
+2024-07-01,Library,False,False,False,474.0,1.5,176.4
+2024-07-01,Academic Block,False,False,False,474.0,1.5,230.8
+2024-07-01,Cafeteria,False,False,False,474.0,1.5,3.0
+2024-07-01,Sports Complex,False,False,False,474.0,1.5,64.9
+2024-07-02,Hostel,False,False,False,351.0,2.05,326.7
+2024-07-02,Library,False,False,False,351.0,2.05,124.7
+2024-07-02,Academic Block,False,False,False,351.0,2.05,187.8
+2024-07-02,Cafeteria,False,False,False,351.0,2.05,22.2
+2024-07-02,Sports Complex,False,False,False,351.0,2.05,0.0
+2024-07-03,Hostel,False,False,False,,2.16,-353.8
+2024-07-03,Library,False,False,False,310.0,2.16,102.0
+2024-07-03,Academic Block,False,False,False,310.0,2.16,132.7
+2024-07-03,Cafeteria,False,False,False,310.0,2.16,0.0
+2024-07-03,Sports Complex,False,False,False,310.0,2.16,0.0
+2024-07-04,Hostel,False,False,False,399.0,0.0,365.4
+2024-07-04,Library,False,False,False,399.0,0.0,146.9
+2024-07-04,Academic Block,False,False,False,399.0,0.0,273.4
+2024-07-04,Cafeteria,False,False,False,399.0,0.0,18.3
+2024-07-04,Sports Complex,False,False,False,399.0,0.0,21.0
+2024-07-05,Hostel,False,False,False,415.0,0.0,388.4
+2024-07-05,Library,False,False,False,415.0,0.0,124.4
+2024-07-05,Academic Block,False,False,False,415.0,0.0,226.3
+2024-07-05,Cafeteria,False,False,False,415.0,0.0,34.9
+2024-07-05,Sports Complex,False,False,False,415.0,0.0,25.8
+2024-07-06,Hostel,True,False,False,483.0,0.0,501.8
+2024-07-06,Library,True,False,False,483.0,0.0,105.1
+2024-07-06,Academic Block,True,False,False,483.0,0.0,234.0
+2024-07-06,Cafeteria,True,False,False,483.0,0.0,39.2
+2024-07-06,Sports Complex,True,False,False,483.0,0.0,121.7
+2024-07-07,Hostel,True,False,False,517.0,1.61,477.8
+2024-07-07,Library,True,False,False,517.0,1.61,147.4
+2024-07-07,Academic Block,True,False,False,517.0,1.61,225.2
+2024-07-07,Cafeteria,True,False,False,517.0,1.61,36.2
+2024-07-07,Sports Complex,True,False,False,,1.61,69.6
+2024-07-08,Hostel,False,False,False,371.0,2.59,289.0
+2024-07-08,Library,False,False,False,371.0,2.59,94.2
+2024-07-08,Academic Block,False,False,False,371.0,2.59,197.0
+2024-07-08,Cafeteria,False,False,False,371.0,2.59,0.0
+2024-07-08,Sports Complex,False,False,False,371.0,2.59,0.0
+2024-07-09,Hostel,False,False,False,358.0,0.47,348.9
+2024-07-09,Library,False,False,False,358.0,0.47,101.9
+2024-07-09,Academic Block,False,False,False,358.0,0.47,207.9
+2024-07-09,Cafeteria,False,False,False,358.0,0.47,15.7
+2024-07-09,Sports Complex,False,False,False,358.0,0.47,0.0
+2024-07-10,Hostel,False,False,False,437.0,2.37,386.5
+2024-07-10,Library,False,False,False,437.0,2.37,100.0
+2024-07-10,Academic Block,False,False,False,437.0,2.37,201.3
+2024-07-10,Cafeteria,False,False,False,437.0,2.37,7.5
+2024-07-10,Sports Complex,False,False,False,437.0,2.37,0.0
+2024-07-11,Hostel,False,True,False,374.0,1.56,440.7
+2024-07-11,Library,False,True,False,,1.56,186.0
+2024-07-11,Academic Block,False,True,False,374.0,1.56,227.8
+2024-07-11,Cafeteria,False,True,False,374.0,1.56,7.9
+2024-07-11,Sports Complex,False,True,False,374.0,1.56,0.0
+2024-07-12,Hostel,False,False,False,526.0,1.28,437.8
+2024-07-12,Library,False,False,False,526.0,1.28,154.0
+2024-07-12,Academic Block,False,False,False,526.0,1.28,262.6
+2024-07-12,Cafeteria,False,False,False,526.0,1.28,58.9
+2024-07-12,Sports Complex,False,False,False,526.0,1.28,39.6
+2024-07-13,Hostel,True,False,False,467.0,2.02,461.9
+2024-07-13,Library,True,False,False,467.0,2.02,81.5
+2024-07-13,Academic Block,True,False,False,467.0,2.02,184.0
+2024-07-13,Cafeteria,True,False,False,467.0,2.02,61.5
+2024-07-13,Sports Complex,True,False,False,467.0,2.02,23.2
+2024-07-14,Hostel,True,False,False,447.0,2.35,371.6
+2024-07-14,Library,True,False,False,447.0,2.35,73.4
+2024-07-14,Academic Block,True,False,False,447.0,2.35,170.3
+2024-07-14,Cafeteria,True,False,False,447.0,2.35,12.6
+2024-07-14,Sports Complex,True,False,False,447.0,2.35,29.8
+2024-07-15,Hostel,False,False,False,483.0,3.6,365.6
+2024-07-15,Library,False,False,False,483.0,3.6,102.5
+2024-07-15,Academic Block,False,False,False,483.0,3.6,220.9
+2024-07-15,Cafeteria,False,False,False,483.0,3.6,18.5
+2024-07-15,Sports Complex,False,False,False,483.0,3.6,2.1
+2024-07-16,Hostel,False,False,False,621.0,0.0,453.6
+2024-07-16,Library,False,False,False,621.0,0.0,216.5
+2024-07-16,Academic Block,False,False,False,621.0,0.0,337.9
+2024-07-16,Cafeteria,False,False,False,621.0,0.0,90.0
+2024-07-16,Sports Complex,False,False,False,621.0,0.0,77.5
+2024-07-17,Hostel,False,False,False,403.0,2.95,309.7
+2024-07-17,Library,False,False,False,403.0,2.95,66.8
+2024-07-17,Academic Block,False,False,False,403.0,2.95,217.0
+2024-07-17,Cafeteria,False,False,False,403.0,2.95,0.0
+2024-07-17,Sports Complex,False,False,False,403.0,2.95,0.0
+2024-07-18,Hostel,False,False,False,301.0,2.87,310.0
+2024-07-18,Library,False,False,False,301.0,2.87,77.9
+2024-07-18,Academic Block,False,False,False,301.0,2.87,166.0
+2024-07-18,Cafeteria,False,False,False,301.0,2.87,0.0
+2024-07-18,Sports Complex,False,False,False,301.0,2.87,0.0
