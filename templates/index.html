@@ -5,22 +5,13 @@
 
     <meta charset="UTF-8">
 
-    <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1.0"
-    >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>WiFiPredict | Bandwidth Prediction</title>
 
-    <link
-        rel="stylesheet"
-        href="{{ url_for('static', filename='style.css') }}"
-    >
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
-        rel="stylesheet"
-    >
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
 </head>
 
@@ -33,46 +24,37 @@
 
     <header class="navbar">
 
+
         <div class="nav-container">
 
-            <a href="#home" class="logo">
-
-                <span class="logo-icon">◉</span>
-
-                <span>
-                    WiFi<span class="logo-highlight">Predict </span>
-                </span>
-
-            </a>
-
+            <a href="#home" class="logo"> <span class="logo-icon"> <span class="logo-wifi"> <span
+                            class="logo-arc logo-arc-1"></span> <span class="logo-arc logo-arc-2"></span> <span
+                            class="logo-arc logo-arc-3"></span> <span class="logo-dot"></span> </span> </span> <span>
+                    WiFi<span class="logo-highlight">Predict</span> </span> </a>
 
             <nav class="nav-links">
-
                 <a href="#home">Home</a>
-
                 <a href="#predict">Predict</a>
-
                 <a href="#features">Features</a>
-
                 <a href="#about">About</a>
-
             </nav>
 
+            <!-- Group both buttons together -->
+            <div class="nav-button-group">
 
-            <a
-                href="#predict"
-                class="nav-button"
-            >
-                Predict Now
-            </a>
-            <a
-                href="https://github.com/shivanisinha967-prog/samatrix-hackathon"
-                class="nav-button"
-            >
-                GITHUB
-            </a>
+                <a href="#predict" class="nav-button">
+                    Predict Now
+                </a>
+
+                <a href="https://github.com/shivanisinha967-prog/samatrix-hackathon" class="nav-buttons">
+                    GITHUB
+                </a>
+
+            </div>
 
         </div>
+
+
 
     </header>
 
@@ -101,7 +83,8 @@
 
                 <span class="status-dot"></span>
 
-                AI-Powered Network Intelligence - Created By <a href="https://github.com/partho-kumar-shaw">Team 404-FOUND-US</a>
+                AI-Powered Network Intelligence - Created By <a href="https://github.com/partho-kumar-shaw">Team
+                    404-FOUND-US</a>
 
             </div>
 
@@ -129,19 +112,13 @@
 
             <div class="hero-buttons">
 
-                <a
-                    href="#predict"
-                    class="primary-button"
-                >
+                <a href="#predict" class="primary-button">
                     Start Prediction
                     <span>→</span>
                 </a>
 
 
-                <a
-                    href="#about"
-                    class="secondary-button"
-                >
+                <a href="#about" class="secondary-button">
                     Learn More
                 </a>
 
@@ -324,11 +301,7 @@
                 </div>
 
 
-                <form
-                    method="POST"
-                    action="/"
-                    id="predictionForm"
-                >
+                <form method="POST" action="/" id="predictionForm">
 
 
                     <!-- Zone -->
@@ -339,11 +312,7 @@
                             Campus Zone
                         </label>
 
-                        <select
-                            name="zone"
-                            id="zone"
-                            required
-                        >
+                        <select name="zone" id="zone" required>
 
                             <option value="">
                                 Select campus zone
@@ -384,15 +353,8 @@
                                 Connected Devices
                             </label>
 
-                            <input
-                                type="number"
-                                name="avg_devices_connected"
-                                id="avg_devices_connected"
-                                min="0"
-                                step="1"
-                                placeholder="e.g. 450"
-                                required
-                            >
+                            <input type="number" name="avg_devices_connected" id="avg_devices_connected" min="0"
+                                step="1" placeholder="e.g. 450" required>
 
                             <small>
                                 Average connected devices
@@ -407,15 +369,8 @@
                                 Packet Loss Rate
                             </label>
 
-                            <input
-                                type="number"
-                                name="packet_loss_rate"
-                                id="packet_loss_rate"
-                                min="0"
-                                step="0.01"
-                                placeholder="e.g. 1.5"
-                                required
-                            >
+                            <input type="number" name="packet_loss_rate" id="packet_loss_rate" min="0" step="0.01"
+                                placeholder="e.g. 1.5" required>
 
                             <small>
                                 Packet loss percentage/rate
@@ -440,10 +395,7 @@
 
                         <div class="toggle-card">
 
-                            <input
-                                type="checkbox"
-                                id="weekendCheck"
-                            >
+                            <input type="checkbox" id="weekendCheck">
 
                             <label for="weekendCheck">
 
@@ -465,22 +417,14 @@
 
                             </label>
 
-                            <input
-                                type="hidden"
-                                name="is_weekend"
-                                id="weekendValue"
-                                value="0"
-                            >
+                            <input type="hidden" name="is_weekend" id="weekendValue" value="0">
 
                         </div>
 
 
                         <div class="toggle-card">
 
-                            <input
-                                type="checkbox"
-                                id="examCheck"
-                            >
+                            <input type="checkbox" id="examCheck">
 
                             <label for="examCheck">
 
@@ -502,22 +446,14 @@
 
                             </label>
 
-                            <input
-                                type="hidden"
-                                name="is_exam"
-                                id="examValue"
-                                value="0"
-                            >
+                            <input type="hidden" name="is_exam" id="examValue" value="0">
 
                         </div>
 
 
                         <div class="toggle-card">
 
-                            <input
-                                type="checkbox"
-                                id="eventCheck"
-                            >
+                            <input type="checkbox" id="eventCheck">
 
                             <label for="eventCheck">
 
@@ -539,12 +475,7 @@
 
                             </label>
 
-                            <input
-                                type="hidden"
-                                name="is_event"
-                                id="eventValue"
-                                value="0"
-                            >
+                            <input type="hidden" name="is_event" id="eventValue" value="0">
 
                         </div>
 
@@ -561,11 +492,7 @@
                                 Day of Week
                             </label>
 
-                            <select
-                                name="day_of_week"
-                                id="day_of_week"
-                                required
-                            >
+                            <select name="day_of_week" id="day_of_week" required>
 
                                 <option value="">
                                     Select day
@@ -610,11 +537,7 @@
                                 Month
                             </label>
 
-                            <select
-                                name="month"
-                                id="month"
-                                required
-                            >
+                            <select name="month" id="month" required>
 
                                 <option value="">
                                     Select month
@@ -650,15 +573,8 @@
 
                         </label>
 
-                        <input
-                            type="number"
-                            name="rolling_avg_7"
-                            id="rolling_avg_7"
-                            min="0"
-                            step="0.01"
-                            placeholder="e.g. 180.5"
-                            required
-                        >
+                        <input type="number" name="rolling_avg_7" id="rolling_avg_7" min="0" step="0.01"
+                            placeholder="e.g. 180.5" required>
 
                         <small>
                             Average bandwidth usage during
@@ -668,10 +584,7 @@
                     </div>
 
 
-                    <button
-                        type="submit"
-                        class="predict-button"
-                    >
+                    <button type="submit" class="predict-button">
 
                         <span>
                             Predict Bandwidth
@@ -826,10 +739,7 @@
          FEATURES
     =========================================== -->
 
-    <section
-        id="features"
-        class="features-section"
-    >
+    <section id="features" class="features-section">
 
         <div class="section-heading">
 
@@ -936,10 +846,7 @@
          ABOUT
     =========================================== -->
 
-    <section
-        id="about"
-        class="about-section"
-    >
+    <section id="about" class="about-section">
 
         <div class="about-content">
 
@@ -1014,10 +921,7 @@
 
                     <div class="progress">
 
-                        <div
-                            class="progress-fill"
-                            style="width: 96.8%;"
-                        ></div>
+                        <div class="progress-fill" style="width: 96.8%;"></div>
 
                     </div>
 
@@ -1124,9 +1028,7 @@
     </footer>
 
 
-    <script
-        src="{{ url_for('static', filename='script.js') }}"
-    ></script>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
 
 </body>
 
