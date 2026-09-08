@@ -1,8 +1,16 @@
 # WiFiPredict — Smart Campus Bandwidth Forecasting
 
-<h1 align="center">404-FOUND-US</h1>
-<p align="center"><em>Team</em></p>
+<div align="center">
 
+# ✨ TEAM 404-FOUND-US ✨
+
+<p style="font-size:18px; color: #6c757d; margin-top: 0;">Samatrix Hackathon — Project by </p>
+
+<p>
+  <img src="https://img.shields.io/badge/Team-404--FOUND--US-blue?style=for-the-badge&logo=github" alt="team badge"/>
+</p>
+
+</div>
 Predict daily Wi‑Fi bandwidth usage across campus zones using a Random Forest regression model and a simple Flask web UI. Designed for quick experimentation and lightweight deployments (Vercel-friendly configuration included).
 
 ## Stack
