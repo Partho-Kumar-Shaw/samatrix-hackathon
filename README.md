@@ -47,7 +47,6 @@ Note: The app expects `wifi_bandwidth_model.pkl` (already included). If the mode
 - `wifi_bandwidth_model.pkl` — Trained model used by the app
 - `bandwidth__prediction.ipynb` — Notebook with data exploration and model training
 - `wifi_usage_data.csv` — Dataset used for training/evaluation
-- `vercel.json` — config for deploying the app to Vercel
 
 ## Notes
 - Health check: `GET /health` returns model load status and scikit-learn version.
